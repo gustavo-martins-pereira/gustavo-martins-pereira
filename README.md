@@ -2,7 +2,7 @@
 
 - 🔭 Atualmente trabalho com Back-end.
 - 🌱 Estou aprendendo [Lógica de Programação com JavaScript](https://www.alura.com.br/curso-online-logica-programacao-javascript-html), (espero que eu consiga zerar a Alura algum dia 🤣).
-- 🤔 Estou procurando ajuda com JPA com Spring 😦.
+- 🤔 Estou procurando ajuda com REST no JAX-RS 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
 - 😄 Pronomes: Ele, dele.
