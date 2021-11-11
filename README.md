@@ -1,5 +1,9 @@
-## Iaê!!! Sou Gustavo 👋
+<!-- Importação de Sites Externos e Bibliotecas -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
+# Iaê!!! Sou Gustavo 👋
+
+## Introdução Sobre Mim
 - 🔭 Atualmente trabalho com Back-end.
 - 🌱 Estou aprendendo [Lógica de Programação com JavaScript](https://www.alura.com.br/curso-online-logica-programacao-javascript-html), (espero que eu consiga zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com REST no JAX-RS 😦.
@@ -8,14 +12,16 @@
 - 😄 Pronomes: Ele, dele.
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+## Estatísticas
+[![Volaxy GitHub stats](https://github-readme-stats.vercel.app/api?username=Volaxy)](https://github.com/Volaxy/github-readme-stats)
 
+<!--
 <div>
   <a href="https://github.com/Volaxy">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Volaxy&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Volaxy&layout=compact&langs_count=16&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Volaxy&show_icons=true&theme=jolly&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Volaxy&layout=compact&langs_count=16&theme=jolly"/>
 </div>
-  
+  -->
 <div style="display: inline_block"><br>
   <img align="center" alt="Volax-HTML" height="60" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"/>
   <img align="center" alt="Volax-HTML" height="60" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"/>
