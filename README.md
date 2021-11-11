@@ -36,4 +36,4 @@
   </a>
 </div>
   
-![Snake animation](https://github.com/Volaxy)
+![Snake animation](https://github.com/Volaxy/Volaxy/blob/output/github-contribution-grid-snake.svg)
