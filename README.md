@@ -5,8 +5,8 @@
 
 ## Introdução Sobre Mim
 - 🔭 Atualmente trabalho com Back-end.
-- 🌱 Estou aprendendo [Jogos clássicos parte 1: Iniciando no Javascript com Pong](https://www.alura.com.br/curso-online-pong-javascript), (espero que eu consiga zerar a Alura algum dia 🤣).
-- 🤔 Estou procurando ajuda com Angular 😦.
+- 🌱 Estou aprendendo [HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas](https://cursos.alura.com.br/course/html5-css3-formularios-tabelas), (espero que eu consiga zerar a Alura algum dia 🤣).
+- 🤔 Estou procurando ajuda com WPF 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
 - 😄 Pronomes: Ele, dele.
