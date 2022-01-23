@@ -5,7 +5,7 @@
 
 ## Introdução Sobre Mim
 - 🔭 Atualmente trabalho com Back-end.
-- 🌱 Estou aprendendo [Python 3 parte 1: Introdução à nova versão da linguagem](https://cursos.alura.com.br/course/python-3-introducao-a-nova-versao-da-linguagem), (espero que eu consiga zerar a Alura algum dia 🤣).
+- 🌱 Estou aprendendo [Python 3 Parte 2: Avançando na Linguagem](https://cursos.alura.com.br/course/python-3-avancando-na-linguagem), (espero que eu consiga zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com WPF 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
