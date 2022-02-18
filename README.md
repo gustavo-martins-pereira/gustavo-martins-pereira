@@ -5,11 +5,11 @@
 
 ## Introdução Sobre Mim
 - 🔭 Atualmente trabalho com Back-end.
-- 🌱 Estou aprendendo [Python Brasil - Validação de Dados no Padrão Nacional](https://cursos.alura.com.br/course/python-validacao-dados/faq), (espero que eu consiga zerar a Alura algum dia 🤣).
+- 🌱 Estou aprendendo [String em Python Extraindo Informações de uma URL](https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url), (espero que eu consiga zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com WPF 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
-- 😄 Pronomes: Ele, dele.
+- 😄 Pronomes: Ele, dele. (Tanto faz essa bagaça, to pouco me lixando pra isso 🐱‍👤)
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
 
 ## Estatísticas
