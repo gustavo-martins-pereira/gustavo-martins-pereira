@@ -5,7 +5,7 @@
 
 ## Introdução Sobre Mim
 - 🔭 Atualmente trabalho com Back-end.
-- 🌱 Estou aprendendo [Python 3: Entendendo o Tratamento de Erros](https://cursos.alura.com.br/course/python-exceptions), (espero que eu consiga zerar a Alura algum dia 🤣).
+- 🌱 Estou aprendendo [Formação Elixir](https://www.alura.com.br/formacao-elixir), (espero que eu consiga zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com Windows Forms de 2003 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
