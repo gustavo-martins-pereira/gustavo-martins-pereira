@@ -20,9 +20,10 @@
 </div>
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Volax-HTML" height="60" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"/>
-  <img align="center" alt="Volax-HTML" height="60" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"/>
-  <img align="center" alt="Volax-HTML" height="60" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"/>
+  <img align="center" alt="HTML Logo" height="60" width="50" src="./icons/html-5.svg"/>
+  <img align="center" alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg"/>
+  <img align="center" alt="Java Logo" height="60" width="50" src="./icons/java.svg"/>
+  <img align="center" alt="Python Logo" height="60" width="50" src="./icons/python.svg"/>
 </div>
   
 ##
