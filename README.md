@@ -4,9 +4,9 @@
 # Iaê!!! Sou Gustavo 👋
 
 ## Introdução Sobre Mim
-- 🔭 Atualmente trabalho com Back-end.
-- 🌱 Estou aprendendo [Formação Elixir](https://www.alura.com.br/formacao-elixir), (espero que eu consiga zerar a Alura algum dia 🤣).
-- 🤔 Estou procurando ajuda com Windows Forms de 2003 😦.
+- 🔭 Atualmente trabalho com **Front-end** em **Angular**.
+- 🌱 Estou aprendendo [Formação HTML e CSS](https://cursos.alura.com.br/formacao-html-e-css), (espero que eu consiga zerar a Alura algum dia 🤣).
+- 🤔 Estou procurando ajuda com **Angular** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
 - 😄 Pronomes: Ele, dele. (Tanto faz essa bagaça, to cagando pra isso 🐱‍👤)
