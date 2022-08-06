@@ -12,6 +12,18 @@
 - 😄 Pronomes: Ele, dele. (Tanto faz essa bagaça, to cagando pra isso 🐱‍👤)
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
 
+## Navegando pelos Repositórios
+Os diretórios estão divididos em subcategorias que são:
+* **Course**: Cursos de alguma plataforma, como **Youtube**, **Udemy**, etc.
+  * Para cada curso, a plataforma em que o curso foi feito também é categorizada, por exemplo: "Java-**Udemy**".
+* **Personal-Project**: Projetos pessoais já feitos (não tem muito que descrever aqui XD).
+* **Course-Project**: Projetos feitos dentro de um curso.
+* **Academic-Project**: Projetos de Faculdade.
+
+Para pesquisar um repositório com um desses tópicos específicos, digite na barra de pesquisa dos repositórios:</br>
+`SUB-CATEGORY is:topics`, onde no lugar de *SUB-CATEGORY*, você vai escrever o nome da subcategoria, como por exemplo `course is:topics`.</br>
+Para mais informações de pesquisa de repositórios, acesse essa página da [documentação do GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-for-repositories).
+
 ## Estatísticas
 <div>
   <a href="https://github.com/Volaxy">
