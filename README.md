@@ -1,16 +1,6 @@
 <!-- Importação de Sites Externos e Bibliotecas -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-
-<style>
-    .flex-center {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .no-wrap {
-        flex-wrap: no-wrap;
-    }
-</style>
+<link rel="stylesheet" href="css/style.css">
 
 # Iaê!!! Sou Gustavo 👋
 
@@ -60,11 +50,6 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <!-- Linkedin -->
     <a href="https://www.linkedin.com/in/gustavo-martins-pereira-20a504198/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-    </a>
-
-    <!-- GitHub -->
-    <a href="https://github.com/Volaxy" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
     </a>
 </div>
 
