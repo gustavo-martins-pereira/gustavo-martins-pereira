@@ -1,8 +1,0 @@
-.flex-center {
-    display: flex;
-    justify-content: space-around;
-}
-
-.no-wrap {
-    flex-wrap: no-wrap;
-}
