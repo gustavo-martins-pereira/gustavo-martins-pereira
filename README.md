@@ -16,7 +16,7 @@ zerar a Alura algum dia 🤣).
 ## Navegando pelos Repositórios 🚢
 Os diretórios estão divididos em subcategorias que são:
 * **Course**: Cursos de alguma plataforma, como **Youtube**, **Udemy**, etc.
-* Para cada curso, a plataforma em que o curso foi feito também é categorizada, por exemplo: "Java-**Udemy**".
+    * Para cada curso, a plataforma em que o curso foi feito também é categorizada, por exemplo: "Java-**Udemy**".
 * **Personal-Project**: Projetos pessoais já feitos (não tem muito que descrever aqui XD).
 * **Course-Project**: Projetos feitos dentro de um curso.
 * **Academic-Project**: Projetos de Faculdade.
