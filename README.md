@@ -5,7 +5,7 @@
 
 ## Introdução Sobre Mim 🧭
 - 🔭 Atualmente trabalho com **Front-end** em **Angular**.
-- 🌱 Estou aprendendo [Formação HTML e CSS](https://cursos.alura.com.br/formacao-html-e-css), (espero que eu consiga
+- 🌱 Estou aprendendo [Formação Acessibilidade Web](https://cursos.alura.com.br/formacao-acessibilidade-web), (espero que eu consiga
 zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com **Angular** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
