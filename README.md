@@ -10,7 +10,6 @@ zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com **Angular** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um E-mail 😉.
-- 😄 Pronomes: Ele, dele. (Tanto faz essa bagaça, to cagando pra isso 🐱‍👤)
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
 
 ## Navegando pelos Repositórios 🚢
