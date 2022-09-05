@@ -22,7 +22,7 @@ Os diretórios estão divididos em subcategorias que são:
 
 Para pesquisar um repositório com um desses tópicos específicos, digite na barra de pesquisa dos repositórios:</br>
 `SUB-CATEGORY is:topics`, onde no lugar de *SUB-CATEGORY*, você vai escrever o nome da subcategoria, como por exemplo
-`course is:topics`.</br>
+`course is:topics`, seguido do nome do repositório.</br>
 Para mais informações de pesquisa de repositórios, acesse essa página da [documentação do
 GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-for-repositories).
 
