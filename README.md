@@ -36,7 +36,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     </a>
 </div>
 
-<div><br/>
+<div align="center"><br/>
     <img alt="HTML Logo" height="60" width="50" src="./icons/html-5.svg" />
     <img alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
@@ -45,12 +45,21 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
 
 ***
 
-<div>
+<div align="center">
    
  <!-- Linkedin -->
  <a href="https://www.linkedin.com/in/gustavo-martins-pereira-20a504198/" target="_blank">
      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
  </a>
+ 
+ <!-- WhatsApp -->
+ <a href="https://wa.me/5527996013293" rel="nofollow">
+   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+ </a>
+ <!--
+ <a href="https://angelacaldas.vercel.app/" target="_blank">
+   <img src="https://img.shields.io/badge/PORTFOLIO-0A182E?style=for-the-badge" alt="Portfolio shield">
+ </a>-->
    
 </div>
 
