@@ -50,6 +50,11 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <a href="https://www.linkedin.com/in/gustavo-martins-pereira-20a504198/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
     </a>
+    
+    <!-- WhatsApp -->
+    <a href="tel:+5527996013293" target="_blank">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+    </a>
 </div>
 
 ![Snake animation](https://github.com/Volaxy/Volaxy/blob/output/github-contribution-grid-snake.svg)
