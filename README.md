@@ -11,6 +11,7 @@ zerar a Alura algum dia 🤣).
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um <a href="mailto:guga.PRO.00@hotmail.com">E-mail</a> 😉.
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
+- 🎨 Cor Favorita: Lilás 🟪 > Ciano 🟦.
 
 ## Navegando pelos Repositórios 🚢
 Os diretórios estão divididos em subcategorias que são:
