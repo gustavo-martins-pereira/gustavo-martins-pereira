@@ -1,0 +1,215 @@
+/*============================== Imports ==================================== */
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Roboto+Mono:wght@700&display=swap');
+
+/*============================== Configurations ==============================*/
+:root {
+    /* COLORS */
+    
+
+    /* BACKGROUNDS */
+    --page-background: linear-gradient(#251B66, #150F38);
+    --menu-background: linear-gradient(135deg, #09171B, #190E38);
+
+    /* BORDERS */
+
+
+    /* TEXTS */
+    --title-text: #FF8811;
+    
+    --default-text: #ddd;
+    
+    --link-menu-text: #FFEEDD;
+    --link-menu-hover-text: #FF8000;
+
+    /* FONTS */
+    --title-font: 'Roboto Mono', 'Courier New', Courier, monospace;
+
+    --text-font: 'Oxygen', Arial, Helvetica, sans-serif;
+}
+
+/*============================== Generic Elements ==============================*/
+body {
+    background-image: var(--page-background);
+    
+    font-size: 16px;
+}
+
+h1, h2 {
+    color: var(--title-text);
+    font-family: var(--title-font);
+}
+
+    h2 {
+        margin-bottom: 1.5rem;
+
+        font-size: 1.5rem;
+    }
+
+p {
+    color: var(--default-text);
+    font-family: var(--text-font);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: inherit;
+
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*============================== Generic Classes ==============================*/
+.width-boxes {
+    width: 80vw;
+}
+
+.block--default-margin {
+    margin: 3.875rem auto 0;
+}
+
+.align-text--center {
+    text-align: center;
+}
+
+/*============================== Page - Top to Bottom ==============================*/
+/* SAME PAGE NAVIGATION */
+    /* WITHOUT JAVASCRIPT */
+    .no-js .nav-page {
+        background-image: var(--menu-background);
+    }
+
+        .no-js .nav-page__item:not(:last-child) {
+            border-bottom: 1px solid rgba(255, 255, 255, .05);
+        }
+
+            .no-js .nav-page__link {
+                display: block;
+
+                padding: 1.5rem;
+
+                color: var(--link-menu-text);
+                font-family: var(--text-font);
+                font-size: 1rem;
+
+                transition: color .1s ease-in;
+            }
+
+            .no-js .nav-page__link:hover {
+                color: var(--link-menu-hover-text);
+            }
+
+/* INTRODUCTION */
+.introduction {
+    display: flex;
+    justify-content: center;
+
+    margin: 3rem auto auto;
+}
+
+    .introduction__photo {
+        height: 100%;
+        max-height: 18rem;
+        
+        margin-right: 1rem;
+    }
+
+    .introduction__text {
+        display: inline-block;
+
+        margin: 0;
+
+        color: var(--default-text);
+        font-size: 1rem;
+        font-family: var(--text-font);
+        font-weight: normal;
+        line-height: 1.5rem;
+    }
+
+        .introduction__text--margin-bottom {
+            display: block;
+
+            margin-bottom: 1rem;
+        }
+
+/* CURRENT COMPANY */
+.current-company__description {
+    margin-bottom: 1rem;
+}
+
+    .current-company__description__link {
+        color: var(--link-menu-hover-text);
+        text-decoration: underline;
+    }
+
+.current-company__technologies {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* KNOWLEDGE */
+.knowledge__technologies {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* PROJECTS */
+.projects__title {
+    text-align: center;
+}
+
+.project__image {
+    display: block;
+
+    width: 50%;
+
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+}
+
+.project__description {
+    margin-top: 1rem;
+}
+
+    .project__title {
+        color: var(--default-text);
+        font-family: var(--title-font);
+
+        text-align: center;
+    }
+
+    .project__link {
+        text-decoration: underline;
+    }
+
+    .project--margin-top {
+        margin-top: 1rem;
+    }
+
+    .project__technologies {
+        margin-top: .5rem;
+    }
+
+        .project__technologie:not(:first-child) {
+            margin-left: 1rem;
+        }
+
+/* CONTACT */
+.contact {
+    margin-bottom: 1rem;
+}
+
+    .contact__links {
+        margin-top: 1rem;
+    }
+
+        .contact__list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
