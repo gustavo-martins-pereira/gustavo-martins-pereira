@@ -30,8 +30,6 @@
 /*============================== Generic Elements ==============================*/
 body {
     background-image: var(--page-background);
-    
-    font-size: 16px;
 }
 
 h1, h2 {
@@ -122,7 +120,7 @@ img {
     }
 
         .js .hamburguer-menu-icon {
-            width: 30px;
+            width: 1.875rem;
 
             align-self: flex-end;
 
@@ -247,3 +245,45 @@ img {
 
 /* RESPONSIVE LAYOUTS */
 /* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: 46rem) {
+    /*============================== Generic Elements ==============================*/
+    html {
+        font-size: 24px;
+    }
+
+    /*============================== Generic Classes ==============================*/
+    .width-boxes {
+        width: 60vw;
+    }
+
+    /*============================== Page - Top to Bottom ==============================*/
+    /* INTRODUCTION */
+    .introduction__text {
+        width: 40%;
+    }
+
+    /* CURRENT COMPANY */
+    .current-company__technologies img {
+        width: 3rem;
+    }
+
+    /* KNOWLEDGE */
+    .knowledge__technologies img {
+        width: 3rem;
+    }
+
+    /* PROJECTS */
+    .project__image {
+        width: 75%;
+    }
+
+        .project__technologie {
+            width: 2rem;
+        }
+
+    /* CONTACT */
+    .contact__list img {
+        width: 2rem;
+    }
+}
