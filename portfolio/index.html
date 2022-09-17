@@ -19,32 +19,36 @@
     <body>
         <!-- Header -->
         <header>
-            <!-- Same Page Navigation -->
-            <nav class="nav-page align-text--center">
-                <ul>
-                    <li class="nav-page__item"> <a class="nav-page__link" href="#" rel="author">Sobre mim</a> </li>
-                    <li class="nav-page__item"> <a class="nav-page__link" href="#" rel="author">Empresa Atual</a> </li>
-                    <li class="nav-page__item"> <a class="nav-page__link" href="#" rel="author">Histórico de Trabalho</a> </li>
-                    <li class="nav-page__item"> <a class="nav-page__link" href="#" rel="author">Conhecimentos</a> </li>
-                    <li class="nav-page__item"> <a class="nav-page__link" href="#" rel="author">Projetos já Feitos</a> </li>
-                    <li class="nav-page__item"> <a class="nav-page__link" href="#" rel="author">Contato</a> </li>
-                </ul>
-            </nav>
+            <div class="menu">
+                <img class="hamburguer-menu-icon" src="assets/images/icons/Hamburguer Menu Icon.svg" alt="ícone de Hamburguer menu">
+
+                <!-- Same Page Navigation -->
+                <nav class="nav-page align-text--center">
+                    <ul>
+                        <li class="nav-page__item"> <a class="nav-page__link" href="#about-me" rel="author">Sobre mim</a> </li>
+                        <li class="nav-page__item"> <a class="nav-page__link" href="#current-company" rel="author">Empresa Atual</a> </li>
+                        <li class="nav-page__item"> <a class="nav-page__link" href="#work-history" rel="author">Histórico de Trabalho</a> </li>
+                        <li class="nav-page__item"> <a class="nav-page__link" href="#knowledge" rel="author">Conhecimentos</a> </li>
+                        <li class="nav-page__item"> <a class="nav-page__link" href="#projects" rel="author">Projetos já Feitos</a> </li>
+                        <li class="nav-page__item"> <a class="nav-page__link" href="#contact" rel="author">Contato</a> </li>
+                    </ul>
+                </nav>
+            </div>
             
             <!-- Introduction -->
-            <div class="introduction width-boxes">
+            <article id="about-me" class="introduction width-boxes">
                 <img class="introduction__photo" src="assets/images/Foto para Perfil.PNG" alt="Foto de mim tirando uma selfie">
                 
                 <h1 class="introduction__text">
                     <span class="introduction__text--margin-bottom">Iaê! Sou <strong>Gustavo Martins Pereira</strong>. <br></span>
                     Programador <strong>Full Stack</strong> com 1 ano de experiência profissional em programação.
                 </h1>
-            </div>
+            </article>
         </header>
 
         <main>
             <!-- Current Company -->
-            <section class="width-boxes block--default-margin align-text--center">
+            <section id="current-company" class="width-boxes block--default-margin align-text--center">
                 <h2>Empresa Atual</h2>
                 <p class="current-company__description">Trabalho há 1 ano na <a class="current-company__description__link" href="https://www.etaure.com.br" hreflang="pt-br" target="_blank" rel="external">Etaure</a>, nas seguintes tecnologias:</p>
                 
@@ -57,13 +61,13 @@
             </section>
 
             <!-- Work History -->
-            <section class="width-boxes block--default-margin align-text--center">
+            <section id="work-history" class="width-boxes block--default-margin align-text--center">
                 <h2>Histórico de Trabalho</h2>
                 <p>Atualmente ainda estou no meu primeiro emprego :)</p>
             </section>
 
             <!-- Knowledge -->
-            <section class="width-boxes block--default-margin align-text--center">
+            <section id="knowledge" class="width-boxes block--default-margin align-text--center">
                 <h2>Conhecimentos</h2>
 
                 <div class="knowledge__technologies">
@@ -76,7 +80,7 @@
             </section>
             
             <!-- Projects Already Done -->
-            <article class="width-boxes block--default-margin">
+            <article id="projects" class="width-boxes block--default-margin">
                 <h2 class="projects__title">Projetos já Feitos</h2>
                 
                 <section>
@@ -102,7 +106,7 @@
             </article>
 
             <!-- Contact -->
-            <section class="contact width-boxes block--default-margin align-text--center">
+            <section id="contact" class="contact width-boxes block--default-margin align-text--center">
                 <h2>Contato</h2>
                 <p>Entre em contato comigo através dos seguintes endereços</p>
 
@@ -124,5 +128,7 @@
                 </nav>
             </section>
         </main>
+
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
