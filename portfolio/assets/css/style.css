@@ -81,6 +81,10 @@ img {
         box-shadow: -2px 2px 4px rgba(0, 0, 0, .75);
     }
 
+        .hamburguer-menu-icon {
+            cursor: pointer;
+        }
+
         .nav-page__item:not(:last-child) {
             border-bottom: 1px solid rgba(255, 255, 255, .02);
         }
@@ -285,5 +289,86 @@ img {
     /* CONTACT */
     .contact__list img {
         width: 2rem;
+    }
+}
+
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: 80rem) {
+    /*============================== Generic Elements ==============================*/
+    h2 {
+        font-size: 2rem;
+    }
+
+    /*============================== Generic Classes ==============================*/
+    .width-boxes {
+        width: 60vw;
+    }
+
+    .block--default-margin {
+        margin: 10rem auto 0;
+    }
+
+    /*============================== Page - Top to Bottom ==============================*/
+    /* SAME PAGE NAVIGATION */
+    .js .menu {
+        background-image: var(--menu-background);
+
+        position: initial;
+    }
+
+        .hamburguer-menu-icon {
+            display: none;
+        }
+
+        .js .nav-page {
+            height: auto;
+        }
+
+            .nav-page__links {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+                .nav-page__link {
+                    padding: 1rem 2rem;
+
+                    font-size: .75rem;
+                }
+
+    /* PROJECTS */
+    .project {
+        display: flex;
+    }
+
+        .project__title {
+            text-align: left;
+        }
+        
+        .project__image {
+            width: 40%;
+        }
+        
+        .project__description {
+            margin-left: 2rem;
+        }
+
+            .project__title {
+                font-size: 1.5rem;
+            }
+
+            .project-github {
+                display: inline-block;
+            }
+
+                .project-github img {
+                    width: 75px;
+                }
+
+    /* CONTACT */
+    .contact__list {
+        width: 60%;
+
+        margin: auto;
     }
 }
