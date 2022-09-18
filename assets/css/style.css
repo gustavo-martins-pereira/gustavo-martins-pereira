@@ -366,9 +366,13 @@ img {
                 }
 
     /* CONTACT */
-    .contact__list {
-        width: 60%;
-
-        margin: auto;
+    .contact {
+        margin-bottom: 2rem;
     }
+    
+        .contact__list {
+            width: 60%;
+
+            margin: auto;
+        }
 }
