@@ -229,9 +229,23 @@ img {
         margin-top: .5rem;
     }
 
-        .project__technologie:not(:first-child) {
-            margin-left: 1rem;
+        .project__technologie {
+            width: 2rem;
         }
+
+            .project__technologie:not(:first-child) {
+                margin-left: 1rem;
+            }
+
+        .project-github {
+            display: inline-block;
+
+            margin-top: 1rem;
+        }
+
+            .project-github img {
+                width: 2.8rem;
+            }
 
 /* CONTACT */
 .contact {
@@ -282,8 +296,8 @@ img {
         width: 75%;
     }
 
-        .project__technologie {
-            width: 2rem;
+        .project-github img {
+            width: 2.8rem;
         }
 
     /* CONTACT */
@@ -357,13 +371,9 @@ img {
                 font-size: 1.5rem;
             }
 
-            .project-github {
-                display: inline-block;
+            .project-github img {
+                width: 75px;
             }
-
-                .project-github img {
-                    width: 75px;
-                }
 
     /* CONTACT */
     .contact {
