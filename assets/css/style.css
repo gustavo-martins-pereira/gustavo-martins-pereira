@@ -89,6 +89,20 @@ img {
     overflow: hidden;
 }
 
+.acessibility--show-with-tab:focus {
+    width: auto;
+    height: auto;
+
+    top: 4rem;
+    left: 1rem;
+
+    color: white;
+    font-family: var(--text-font);
+    text-decoration: underline;
+
+    overflow: visible;
+}
+
 /*============================== Page - Top to Bottom ==============================*/
 /* SAME PAGE NAVIGATION */
     .menu {
