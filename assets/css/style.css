@@ -28,6 +28,10 @@
 }
 
 /*============================== Generic Elements ==============================*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: var(--page-background);
 }
@@ -71,6 +75,18 @@ img {
 
 .align-text--center {
     text-align: center;
+}
+
+/* ACESSIBILITY */
+.acessibility--hidden-text {
+    width: 1px;
+    height: 1px;
+    
+    position: absolute;
+
+    color: transparent;
+
+    overflow: hidden;
 }
 
 /*============================== Page - Top to Bottom ==============================*/
@@ -261,6 +277,12 @@ img {
             justify-content: space-between;
         }
 
+            .contact__list a {
+                display: inline-block;
+
+                height: 1.875rem;
+            }
+
 /* RESPONSIVE LAYOUTS */
 /* TABLET */
 /* 736px / 16px = 46rem */
@@ -320,22 +342,30 @@ img {
     }
 
     .block--default-margin {
-        margin: 10rem auto 0;
+        margin: 6rem auto 0;
+    }
+
+    /* This class solve the problem with the <a> tag with navigation "href="#"", that when the link is pressed, the page moves so that the initial part of the container is "hidden" behind the navigation menu */
+    /* FIX - Find a better way to solve this problem */
+    .navigation--padding-top {
+        /* This value change according the nav height */
+        padding-top: 4rem;
     }
 
     /*============================== Page - Top to Bottom ==============================*/
     /* SAME PAGE NAVIGATION */
-    .js .menu {
+    .header .menu {
         background-image: var(--menu-background);
+        width: 100%;
 
-        position: initial;
+        position: fixed;
     }
 
         .hamburguer-menu-icon {
             display: none;
         }
 
-        .js .nav-page {
+        .header .nav-page {
             height: auto;
         }
 

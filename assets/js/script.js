@@ -11,6 +11,7 @@ let $hamburguer_menu = document.querySelector(".hamburguer-menu-icon");
 $hamburguer_menu.addEventListener("click", () => {
     menuIsActive = !menuIsActive;
     
+    // Change the style sheet according the status of menu
     let $menu = document.querySelector(".menu");
     let $hamburguer_menu = document.querySelector(".hamburguer-menu-icon");
     let $nav_menu = document.querySelector(".nav-page");
