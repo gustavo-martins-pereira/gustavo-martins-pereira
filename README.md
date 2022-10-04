@@ -28,14 +28,14 @@ Para mais informações de pesquisa de repositórios, acesse essa página da [do
 GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-for-repositories).
 
 ## Estatísticas 📑
-<div>
+<!--<div>
     <a href="https://github.com/Volaxy">
         <img height="180em"
             src="https://github-readme-stats.vercel.app/api?username=Volaxy&show_icons=true&theme=jolly&include_all_commits=true&count_private=true" />
         <img height="180em"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Volaxy&layout=compact&langs_count=16&theme=jolly" />
     </a>
-</div>
+</div>-->
 
 <div align="center"><br/>
     <img alt="HTML Logo" height="60" width="50" src="./icons/html-5.svg" />
