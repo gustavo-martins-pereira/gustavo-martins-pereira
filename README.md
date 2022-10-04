@@ -30,9 +30,9 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
 ## Estatísticas 📑
 <div>
     <a href="https://github.com/Volaxy">
-        <img height="180em"
+        <img height="200em"
             src="https://github-readme-stats.vercel.app/api?username=Volaxy&show_icons=true&theme=jolly&include_all_commits=true&count_private=true" />
-        <img height="180em" align="right"
+        <img height="200em" align="right"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Volaxy&layout=compact&langs_count=16&theme=jolly" />
     </a>
 </div>
