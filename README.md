@@ -4,7 +4,7 @@
 # Iaê!!! Sou Gustavo 👋
 
 ## Introdução Sobre Mim 🧭
-- 🔭 Atualmente trabalho com **Front-end** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
+- 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
 - 🌱 Estou aprendendo [JavaScript para back-end](https://cursos.alura.com.br/formacao-js-backend), (espero que eu consiga
 zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com **Angular** 😦.
