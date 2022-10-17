@@ -1,6 +1,12 @@
 <!-- Importação de Sites Externos e Bibliotecas -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
+<div align="center">
+   <img alt="GitHub Commit Activity (Week)" src="https://img.shields.io/github/commit-activity/w/volaxy/volaxy" />
+   <img alt="GitHub Commit Activity (Month)" src="https://img.shields.io/github/commit-activity/m/volaxy/volaxy" />
+   <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/volaxy/volaxy" />
+</div>
+
 # Iaê!!! Sou Gustavo 👋
 
 ## Introdução Sobre Mim 🧭
