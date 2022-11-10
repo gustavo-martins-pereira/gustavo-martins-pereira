@@ -222,16 +222,15 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2rem 4rem;
 }
-
-    .current-company__technologies img:not(:first-child) {
-        margin-left: 2rem;
-    }
 
 /* KNOWLEDGE */
 .knowledge__technologies {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    gap: 2rem 4rem;
 }
 
 /* PROJECTS */
