@@ -219,8 +219,14 @@ img {
 
 .current-company__technologies {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+    .current-company__technologies img:not(:first-child) {
+        margin-left: 2rem;
+    }
 
 /* KNOWLEDGE */
 .knowledge__technologies {

@@ -19,14 +19,14 @@ $hamburguer_menu.addEventListener("click", () => {
         $menu.style.backgroundImage = "var(--menu-background)";
         $menu.style.boxShadow = "-2px 2px 4px rgba(0, 0, 0, .75)";
         
-        $hamburguer_menu.src = "assets/images/icons/Close Icon.svg";
+        $hamburguer_menu.src = "assets/images/icons/Close.svg";
         
         $nav_menu.style.height = "auto";
     } else {
         $menu.style.backgroundImage = "none";
         $menu.style.boxShadow = "none";
         
-        $hamburguer_menu.src = "assets/images/icons/Hamburguer Menu Icon.svg";
+        $hamburguer_menu.src = "assets/images/icons/Hamburguer Menu.svg";
 
         $nav_menu.style.height = 0;
     }
