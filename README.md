@@ -11,7 +11,7 @@
 
 ## Introdução Sobre Mim 🧭
 - 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
-- 🌱 Estou aprendendo [JavaScript para back-end](https://cursos.alura.com.br/formacao-js-backend), (espero que eu consiga
+- 🌱 Estou aprendendo [CSS: Estilos](https://cursos.alura.com.br/formacao-css-estilos), (espero que eu consiga
 zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com **Angular** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
