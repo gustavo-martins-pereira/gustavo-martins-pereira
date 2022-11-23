@@ -397,7 +397,7 @@ img {
     }
 
     /* This class solve the problem with the <a> tag with navigation "href="#"", that when the link is pressed, the page moves so that the initial part of the container is "hidden" behind the navigation menu */
-    /* FIX - Find a better way to solve this problem */
+    /* FIXME: - Find a better way to solve this problem */
     .navigation--padding-top {
         /* This value change according the nav height */
         padding-top: 4rem;
@@ -410,6 +410,8 @@ img {
         width: 100%;
 
         position: fixed;
+
+        box-shadow: -2px 2px 4px rgba(0, 0, 0, .75);
     }
 
         .hamburguer-menu-icon {
@@ -423,6 +425,7 @@ img {
             .nav-page__links {
                 display: flex;
                 justify-content: flex-end;
+                align-items: center;
             }
 
                 .nav-page__link {
