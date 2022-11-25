@@ -1,0 +1,41 @@
+/*========== COLORS ==========*/
+$alto: hsl(0, 0%, 87%);
+$derby: hsl(30, 100%, 93%);
+$flush-orange: hsl(30, 100%, 50%);
+$firefly: hsl(193, 50%, 7%);
+$lucky-point: hsl(248, 58%, 25%);
+$black-haiti: hsl(249, 58%, 14%);
+$haiti: hsl(256, 60%, 14%);
+
+/*========== BACKGROUNDS ==========*/
+$page-background: linear-gradient($lucky-point, $black-haiti);
+$menu-background: linear-gradient(135deg, $firefly, $haiti);
+
+/*========== BORDERS ==========*/
+
+
+/*========== TEXTS ==========*/
+// TITLES
+$title-text: $flush-orange;
+
+// NORMAL TEXT
+$default-text: $alto;
+
+// LINKS
+$link-menu-text: $derby;
+$link-menu-hover-text: $flush-orange;
+
+/*========== FONTS ==========*/
+$title-font-stack: (
+    'Roboto Mono',
+    'Courier New',
+    Courier,
+    monospace
+);
+
+$text-font-stack: (
+    'Oxygen',
+    Arial,
+    Helvetica,
+    sans-serif
+);
