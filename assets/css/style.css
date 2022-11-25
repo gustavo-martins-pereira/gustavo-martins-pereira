@@ -311,26 +311,6 @@ img {
                     width: 2.8rem;
                 }
 
-/* CONTACT */
-.contact {
-    margin-bottom: 1rem;
-}
-
-    .contact__links {
-        margin-top: 1rem;
-    }
-
-        .contact__list {
-            display: flex;
-            justify-content: space-between;
-        }
-
-            .contact__list a {
-                display: inline-block;
-
-                height: 1.875rem;
-            }
-
 /* RESPONSIVE LAYOUTS */
 /* TABLET */
 /* 736px / 16px = 46rem */
@@ -369,11 +349,6 @@ img {
         .project-github img {
             width: 2.8rem;
         }
-
-    /* CONTACT */
-    .contact__list img {
-        width: 2rem;
-    }
 }
 
 /* DESKTOP */
@@ -455,15 +430,4 @@ img {
             .project-github img {
                 width: 75px;
             }
-
-    /* CONTACT */
-    .contact {
-        margin-bottom: 2rem;
-    }
-    
-        .contact__list {
-            width: 60%;
-
-            margin: auto;
-        }
 }

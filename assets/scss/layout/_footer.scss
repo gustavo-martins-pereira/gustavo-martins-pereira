@@ -1,0 +1,41 @@
+.contact {
+    margin-bottom: 1rem;
+
+    &__links {
+        margin-top: 1rem;
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+
+            & a {
+                display: inline-block;
+
+                height: 1.875rem;
+            }
+        }
+    }
+}
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: 46rem) {
+    .contact__links__list img {
+        width: 2rem;
+    }
+}
+
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: 80rem) {
+    .contact {
+        margin-bottom: 2rem;
+
+        &__links__list {
+            width: 60%;
+
+            margin: auto;
+        }
+    }
+}

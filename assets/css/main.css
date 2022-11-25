@@ -408,4 +408,38 @@ template {
             * URL: https://fonts.google.com/specimen/Roboto;
             * Weights:
                 * 700 - Bold;
-*//*# sourceMappingURL=main.css.map */
+*/
+.contact {
+  margin-bottom: 1rem;
+}
+.contact__links {
+  margin-top: 1rem;
+}
+.contact__links__list {
+  display: flex;
+  justify-content: space-between;
+}
+.contact__links__list a {
+  display: inline-block;
+  height: 1.875rem;
+}
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: 46rem) {
+  .contact__links__list img {
+    width: 2rem;
+  }
+}
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: 80rem) {
+  .contact {
+    margin-bottom: 2rem;
+  }
+  .contact__links__list {
+    width: 60%;
+    margin: auto;
+  }
+}/*# sourceMappingURL=main.css.map */
