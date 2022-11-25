@@ -1,0 +1,123 @@
+.projects {
+    &__title {
+        text-align: center;
+    }
+    
+    /* VITRINE DEV */
+    &__vitrine-dev {
+        margin: 2rem auto;
+
+        text-align: center;
+
+        &__tittle {
+            color: var(--title-text);
+        }
+
+        &__link {
+            background-image: linear-gradient(#632488, #341fa8);
+
+            display: inline-block;
+
+            border-radius: 5px;
+            padding: 1rem 1.5rem;
+
+            color: var(--default-text);
+            font-size: 1.5rem;
+            font-family: var(--text-font);
+            text-decoration: underline;
+        }
+    }   
+
+    /* PROJECT */
+    &__project {
+        &__image {
+            display: block;
+    
+            width: 50%;
+    
+            margin: auto;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+        }
+    
+        &__description {
+            margin-top: 1rem;
+
+            // FIXME: Fix the margin-top with the class "project--margin-top"
+            &__title {
+                color: var(--default-text);
+                font-family: var(--title-font);
+    
+                text-align: center;
+            }
+    
+            &__link {
+                text-decoration: underline;
+            }
+    
+            // TODO: Exclude this property and execute only when the function is called in the elements, only in the SCSS, NOT the HTML
+            .project--margin-top {
+                margin-top: 1rem;
+            }
+    
+            // FIXME: Fix the margin-top with the class "project--margin-top"
+            &__technologies {
+                margin-top: .5rem;
+
+                &__technologie {
+                    width: 2rem;
+
+                    &:not(:first-child) {
+                        margin-left: 1rem;
+                    }
+                }                    
+            }
+    
+            &__github {
+                display: inline-block;
+
+                & img {
+                    width: 2.8rem;
+                }
+            }   
+        }
+    }
+}
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: 46rem) {
+    .projects__project__image {
+        width: 75%;
+    }
+
+    .projects__project__description__github img {
+        width: 2.8rem;
+    }
+}
+
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: 80rem) {
+    .projects__project {
+        display: flex;
+
+        &__image {
+            width: 40%;
+        }
+
+        &__description {
+            margin-top: 0;
+            margin-left: 2rem;
+
+            &__title {
+                font-size: 1.5rem;
+                text-align: left;
+            }
+
+            &__github img {
+                width: 75px;
+            }
+        }
+    }
+}

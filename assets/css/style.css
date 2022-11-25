@@ -230,87 +230,6 @@ img {
     gap: 2rem 4rem;
 }
 
-/* PROJECTS */
-.projects__title {
-    text-align: center;
-}
-
-    /* VITRINE DEV */
-    .projects__vitrine-dev {
-        margin: 2rem auto;
-
-        text-align: center;
-    }
-
-        .projects__vitrine-dev__tittle {
-            color: var(--title-text);
-        }
-
-        .projects__vitrine-dev__link {
-            background-image: linear-gradient(#632488, #341fa8);
-
-            display: inline-block;
-
-            border-radius: 5px;
-            padding: 1rem 1.5rem;
-
-            color: var(--default-text);
-            font-size: 1.5rem;
-            font-family: var(--text-font);
-            text-decoration: underline;
-        }
-
-    /* PROJECT */
-    .project__image {
-        display: block;
-
-        width: 50%;
-
-        margin: auto;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
-    }
-
-    .project__description {
-        margin-top: 1rem;
-    }
-
-        .project__title {
-            color: var(--default-text);
-            font-family: var(--title-font);
-
-            text-align: center;
-        }
-
-        .project__link {
-            text-decoration: underline;
-        }
-
-        .project--margin-top {
-            margin-top: 1rem;
-        }
-
-        .project__technologies {
-            margin-top: .5rem;
-        }
-
-            .project__technologie {
-                width: 2rem;
-            }
-
-                .project__technologie:not(:first-child) {
-                    margin-left: 1rem;
-                }
-
-            .project-github {
-                display: inline-block;
-
-                margin-top: 1rem;
-            }
-
-                .project-github img {
-                    width: 2.8rem;
-                }
-
 /* RESPONSIVE LAYOUTS */
 /* TABLET */
 /* 736px / 16px = 46rem */
@@ -340,15 +259,6 @@ img {
     .knowledge__technologies img {
         width: 3rem;
     }
-
-    /* PROJECTS */
-    .project__image {
-        width: 75%;
-    }
-
-        .project-github img {
-            width: 2.8rem;
-        }
 }
 
 /* DESKTOP */
@@ -405,29 +315,4 @@ img {
 
                     font-size: .75rem;
                 }
-
-    /* PROJECTS */
-    .project {
-        display: flex;
-    }
-
-        .project__title {
-            text-align: left;
-        }
-        
-        .project__image {
-            width: 40%;
-        }
-        
-        .project__description {
-            margin-left: 2rem;
-        }
-
-            .project__title {
-                font-size: 1.5rem;
-            }
-
-            .project-github img {
-                width: 75px;
-            }
 }
