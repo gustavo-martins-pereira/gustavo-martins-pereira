@@ -23,7 +23,7 @@
 
             color: var(--default-text);
             font-size: 1.5rem;
-            font-family: var(--text-font);
+            font-family: $text-font-stack;
             text-decoration: underline;
         }
     }   
@@ -45,8 +45,8 @@
             // FIXME: Fix the margin-top with the class "project--margin-top"
             &__title {
                 color: var(--default-text);
-                font-family: var(--title-font);
-                font-size: $mobile-font-size * 1;
+                font-family: --title-font-stack;
+                font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 1;
                 text-align: center;
             }
     

@@ -1,7 +1,7 @@
 /* MOBILE */
 html,
 body {
-    font-size: $mobile-font-size;
+    font-size: map-get($map: $font-sizes, $key: "mobile-font-size");
 }
 
 html {
@@ -19,25 +19,25 @@ h3 {
     font-family: $title-font-stack;
 }
     h1 {
-        font-size: $mobile-font-size * 2;
+        font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 2;
     }
 
     h2 {
         margin-bottom: 1.5rem;
 
-        font-size: $mobile-font-size * 1.75;
+        font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 1.75;
     }
 
     h3 {
         margin-bottom: 1.25rem;
 
-        font-size: $mobile-font-size * 1.5;
+        font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 1.5;
     }
 
 p {
     color: $default-text;
     font-family: $text-font-stack;
-    font-size: $mobile-font-size;
+    font-size: map-get($map: $font-sizes, $key: "mobile-font-size");
     line-height: 1.5rem;
 }
 
@@ -49,4 +49,23 @@ a {
 
 img {
     max-width: 100%;
+}
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: map-get($breakpoints, "tablet")) {
+    html,
+    body {
+        font-size: map-get($map: $font-sizes, $key: "tablet-font-size"); 
+    }
+}
+
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: map-get($breakpoints, "desktop")) {
+    html,
+    body {
+        font-size: map-get($map: $font-sizes, $key: "desktop-font-size");
+    }
 }
