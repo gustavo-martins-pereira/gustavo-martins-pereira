@@ -15,6 +15,7 @@ $menu-background: linear-gradient(135deg, $firefly, $haiti);
 
 
 /*========== TEXTS ==========*/
+// TEXT COLORS
 // TITLES
 $title-text: $flush-orange;
 
@@ -24,6 +25,11 @@ $default-text: $alto;
 // LINKS
 $link-menu-text: $derby;
 $link-menu-hover-text: $flush-orange;
+
+// TEXT SIZES
+$mobile-font-size: 16px;
+$tablet-font-size: 20px;
+$desktop-font-size: 24px;
 
 /*========== FONTS ==========*/
 $title-font-stack: (

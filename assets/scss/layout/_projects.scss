@@ -46,7 +46,7 @@
             &__title {
                 color: var(--default-text);
                 font-family: var(--title-font);
-    
+                font-size: $mobile-font-size * 1;
                 text-align: center;
             }
     
