@@ -1,7 +1,8 @@
 {
     "liveSassCompile.settings.formats": [
         {
-            "savePath": "/assets/css"
+            "savePath": "/assets/css",
+            "linefeed": "crlf"
         }
     ]
 }
