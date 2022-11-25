@@ -107,70 +107,6 @@ img {
 }
 
 /*============================== Page - Top to Bottom ==============================*/
-/* SAME PAGE NAVIGATION */
-    .menu {
-        background-image: var(--menu-background);
-
-        box-shadow: -2px 2px 4px rgba(0, 0, 0, .75);
-    }
-
-        .hamburguer-menu-icon {
-            cursor: pointer;
-        }
-
-        .nav-page__item:not(:last-child) {
-            border-bottom: 1px solid rgba(255, 255, 255, .02);
-        }
-
-            .nav-page__link {
-                display: block;
-
-                padding: 1.5rem 3rem;
-
-                color: var(--link-menu-text);
-                font-family: var(--text-font);
-                font-size: 1rem;
-
-                transition: color .1s ease-in;
-            }
-
-                .nav-page__link:hover {
-                    color: var(--link-menu-hover-text);
-                }
-
-    /* NO JAVASCRIPT */
-    .no-js .hamburguer-menu-icon {
-        display: none;
-    }
-
-    /* WITH JAVASCRIPT */
-    .js .menu {
-        background-image: none;
-        box-shadow: none;
-
-        position: fixed;
-        top: 0;
-        right: 0;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-        .js .hamburguer-menu-icon {
-            width: 1.875rem;
-
-            align-self: flex-end;
-
-            margin-top: 1rem;
-            margin-right: 1rem;
-        }
-
-        .js .nav-page {
-            height: 0;
-
-            overflow: hidden;
-        }
-
 /* INTRODUCTION */
 .introduction {
     display: flex;
@@ -284,35 +220,4 @@ img {
         /* This value change according the nav height */
         padding-top: 4rem;
     }
-
-    /*============================== Page - Top to Bottom ==============================*/
-    /* SAME PAGE NAVIGATION */
-    .header .menu {
-        background-image: var(--menu-background);
-        width: 100%;
-
-        position: fixed;
-
-        box-shadow: -2px 2px 4px rgba(0, 0, 0, .75);
-    }
-
-        .hamburguer-menu-icon {
-            display: none;
-        }
-
-        .header .nav-page {
-            height: auto;
-        }
-
-            .nav-page__links {
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-            }
-
-                .nav-page__link {
-                    padding: 1rem 2rem;
-
-                    font-size: .75rem;
-                }
 }
