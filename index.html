@@ -63,9 +63,11 @@
         <main>
             <!-- Current Company -->
             <!-- FIXME: Exludes the classes -->
-            <section id="current-company" class="current-company block--default-margin">
+            <section id="current-company" class="current-company">
                 <h2>Empresa Atual</h2>
-                <p class="current-company__description">Trabalho há 1 ano na <a class="current-company__description__link" href="https://www.etaure.com.br" hreflang="pt-br" target="_blank" rel="external">Etaure</a>, nas seguintes tecnologias:</p>
+                <p class="current-company__description">
+                    Trabalho há 1 ano na <a class="current-company__description__link" href="https://www.etaure.com.br" hreflang="pt-br" target="_blank" rel="external">Etaure</a>, nas seguintes tecnologias:
+                </p>
                 
                 <div class="current-company__technologies">
                     <img src="assets/images/icons/HTML5 Logo.svg" alt="Logo do HTML5">
@@ -81,13 +83,13 @@
             </section>
 
             <!-- Work History -->
-            <section id="work-history" class="work-history width-boxes block--default-margin align-text--center">
+            <section id="work-history" class="work-history block--default-margin align-text--center">
                 <h2>Histórico de Trabalho</h2>
                 <p>Atualmente ainda estou no meu primeiro emprego :)</p>
             </section>
 
             <!-- Knowledge -->
-            <section id="knowledge" class="knowledge width-boxes block--default-margin align-text--center">
+            <section id="knowledge" class="knowledge">
                 <h2>Conhecimentos</h2>
 
                 <div class="knowledge__technologies">
@@ -100,7 +102,7 @@
             </section>
             
             <!-- Projects Already Done -->
-            <article id="projects" class="projects width-boxes block--default-margin">
+            <article id="projects" class="projects">
                 <h2 class="projects__title">Projetos já Feitos</h2>
                 
                 <header class="projects__vitrine-dev">
@@ -113,20 +115,22 @@
                     <img class="projects__project__image" src="assets/images/7daysofcode-website.png" alt="Projeto do #7daysofcode">
 
                     <div class="projects__project__description">
-                        <h3 class="projects__project__description__title project--margin-top">#7DaysOfCodeComHTML&CSS</h3>
+                        <h3 class="projects__project__description__title">#7DaysOfCodeComHTML&CSS</h3>
 
-                        <p class="project--margin-top">Um WebSite SinglePage construído utilizando os conceitos básicos de HTML e CSS, utilizando as variáveis CSS e o display Flex.</p>
-                        <p class="project--margin-top"><a class="projects__project__description__link" href="https://volaxy.github.io/7_Days_of_Code-HTML_and_CSS/" hreflang="pt-br" rel="author">Link do Projeto</a></p>
+                        <p>Um WebSite SinglePage construído utilizando os conceitos básicos de HTML e CSS, utilizando as variáveis CSS e o display Flex.</p>
+                        <p>
+                            <a class="projects__project__description__link" href="https://volaxy.github.io/7_Days_of_Code-HTML_and_CSS/" hreflang="pt-br" rel="author">Link do Projeto</a>
+                        </p>
 
-                        <div class="project--margin-top">
+                        <div class="projects__project__description--light-margin">
                             <p>Tecnologias usadas</p>
-                            <div class="projects__project__description__technologies project--margin-top">
+                            <div class="projects__project__description__technologies">
                                 <img class="projects__project__description__technologies__technologie" src="assets/images/icons/HTML5 Logo.svg" alt="Logo do HTML5">
                                 <img class="projects__project__description__technologies__technologie" src="assets/images/icons/CSS3 Logo.svg" alt="Logo do CSS3">
                             </div>
                         </div>
                         
-                        <p class="project--margin-top">#7daysofcode #html5 #css3 #flexbox #alura</p>
+                        <p class="projects__project__description__tags">#7daysofcode #html5 #css3 #flexbox #alura</p>
 
                         <a class="projects__project__description__github project--margin-top" href="https://github.com/Volaxy/7_Days_of_Code-HTML_and_CSS" hreflang="pt-br" target="_blank" rel="external">
                             <img src="assets/images/icons/Github.svg" alt="Logo do Github">
@@ -134,30 +138,30 @@
                     </div>
                 </section>
             </article>
-
-            <!-- Contact -->
-            <section id="contact" class="contact width-boxes block--default-margin align-text--center navigation--padding-top">
-                <h2>Contato</h2>
-                <p>Entre em contato comigo através dos seguintes endereços</p>
-
-                <nav class="contact__links">
-                    <ul class="contact__links__list">
-                        <li>
-                            <a href="https://github.com/Volaxy" target="_blank" rel="external"> <img src="assets/images/icons/Github.svg" alt="Logo do Github"> </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/gustavo-martins-pereira-20a504198/" target="_blank" rel="external"> <img src="assets/images/icons/Linkedin.svg" alt="Logo do Linkedin"> </a>
-                        </li>
-                        <li>
-                            <a href="mailto:guga.pro.00@hotmail.com.br" target="_blank" rel="external"> <img src="assets/images/icons/E-mail.svg" alt="Carta. Ilustração"> </a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/5527996013293" target="_blank" rel="external"> <img src="assets/images/icons/WhatsApp.svg" alt="Logo do WhatsApp"> </a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
         </main>
+
+        <!-- Contact -->
+        <footer id="contact" class="contact">
+            <h2 class="contact__title">Contato</h2>
+            <p>Entre em contato comigo através dos seguintes endereços</p>
+
+            <nav class="contact__links">
+                <ul class="contact__links__list">
+                    <li>
+                        <a href="https://github.com/Volaxy" target="_blank" rel="external"> <img src="assets/images/icons/Github.svg" alt="Logo do Github"> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/gustavo-martins-pereira-20a504198/" target="_blank" rel="external"> <img src="assets/images/icons/Linkedin.svg" alt="Logo do Linkedin"> </a>
+                    </li>
+                    <li>
+                        <a href="mailto:guga.pro.00@hotmail.com.br" target="_blank" rel="external"> <img src="assets/images/icons/E-mail.svg" alt="Carta. Ilustração"> </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5527996013293" target="_blank" rel="external"> <img src="assets/images/icons/WhatsApp.svg" alt="Logo do WhatsApp"> </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
 
         <script src="assets/js/script.js"></script>
     </body>

@@ -6,6 +6,10 @@
     margin: 3.875rem auto 0;
 }
 
+@mixin light-margin-top {
+    margin-top: 1rem;
+}
+
 /* BUG FIXES */
 /* This class solve the problem with the <a> tag with navigation "href="#"", that when the link is pressed, the page moves so that the initial part of the container is "hidden" behind the navigation menu */
 /* TODO: - Find a better way to solve this problem */

@@ -1,0 +1,260 @@
+/*============================== Top to Bottom ==============================*/
+/* INTRODUCTION */
+.introduction {
+    @include width-content;
+    @include navigation--padding-top;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 3rem auto auto;
+
+    &__photo {
+        height: 100%;
+        max-height: 18rem;
+        
+        margin-right: 1rem;
+    }
+
+    &__text {
+        display: inline-block;
+
+        margin: 0;
+
+        color: $default-text-color;
+        font-size: map-get($map: $font-sizes, $key: "mobile-font-size");
+        font-family: $text-font-stack;
+        font-weight: normal;
+        line-height: 1.5rem;
+
+        &--margin-bottom {
+            display: block;
+
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+/* CURRENT COMPANY */
+.current-company {
+    @include width-content;
+    @include block--default-margin;
+    @include navigation--padding-top;
+
+    text-align: center;
+
+    &__description {
+        margin-bottom: 1rem;
+
+        &__link {
+            color: $link-menu-hover-text-color;
+            text-decoration: underline;
+        }
+    }
+
+    &__technologies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem 4rem;
+    }
+}
+
+/* WORK HISTORY */
+.work-history {
+    @include width-content;
+    @include block--default-margin;
+    @include navigation--padding-top;
+
+    text-align: center
+}
+
+/* KNOWLEDGE */
+.knowledge {
+    @include width-content;
+    @include block--default-margin;
+    @include navigation--padding-top;
+
+    text-align: center;
+
+    &__technologies {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 2rem 4rem;
+    }
+}
+
+/* PROJECTS */
+.projects {
+    @include width-content;
+    @include block--default-margin;
+    @include navigation--padding-top;
+
+    &__title {
+        text-align: center;
+    }
+    
+    /* VITRINE DEV */
+    &__vitrine-dev {
+        margin: 2rem auto;
+
+        text-align: center;
+
+        &__tittle {
+            color: $title-text-color;
+        }
+
+        &__link {
+            background-image: $button-background;
+
+            display: inline-block;
+
+            border-radius: 5px;
+            padding: 1rem 1.5rem;
+
+            color: $default-text-color;
+            font-size: 1.5rem;
+            font-family: $text-font-stack;
+            text-decoration: underline;
+        }
+    }   
+
+    /* PROJECT */
+    &__project {
+        &__image {
+            display: block;
+    
+            width: 50%;
+    
+            margin: auto;
+            box-shadow: $light-box-shadow;
+        }
+    
+        &__description {
+            margin-top: 1rem;
+
+            & > * {
+                @include light-margin-top;
+            }
+
+            & img[src^="assets/images/icons/"] {
+                width: map-get($map: $icons-width, $key: "mobile") / 1.2;
+            }
+
+            &__title {
+                color: $default-text-color;
+                font-family: $title-font-stack;
+                font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 1.25;
+                text-align: center;
+            }
+    
+            &__link {
+                text-decoration: underline;
+            }
+
+            &__technologies {
+                margin-top: 0.5rem;
+
+                &__technologie {
+                    width: 1rem;
+
+                    &:not(:first-child) {
+                        margin-left: 1rem;
+                    }
+                }                    
+            }
+    
+            &__github {
+                display: inline-block;
+
+                & img {
+                    width: 2.8rem;
+                }
+            }   
+        }
+    }
+}
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: 46rem) {
+    /*============================== Generic Elements ==============================*/
+    html {
+        font-size: 24px;
+    }
+
+    /*============================== Generic Classes ==============================*/
+    .width-boxes {
+        width: 60vw;
+    }
+
+    /*============================== Page - Top to Bottom ==============================*/
+    /* INTRODUCTION */
+    .introduction__text {
+        width: 40%;
+    }
+
+    /* CURRENT COMPANY */
+    .current-company__technologies img {
+        width: 3rem;
+    }
+
+    /* KNOWLEDGE */
+    .knowledge__technologies img {
+        width: 3rem;
+    }
+
+    /* PROJECTS */
+    .projects__project__image {
+        width: 75%;
+    }
+
+    .projects__project__description__github img {
+        width: 2.8rem;
+    }
+}
+
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: 80rem) {
+    /*============================== Generic Elements ==============================*/
+    h2 {
+        font-size: 2rem;
+    }
+
+    /*============================== Generic Classes ==============================*/
+    .width-boxes {
+        width: 60vw;
+    }
+
+    /* FIXME: To transform in mixin */
+    .block--default-margin {
+        margin: 6rem auto 0;
+    }
+
+    /* PROJECTS */
+    .projects__project {
+        display: flex;
+
+        &__image {
+            width: 40%;
+        }
+
+        &__description {
+            margin-top: 0;
+            margin-left: 2rem;
+
+            &__title {
+                font-size: 1.5rem;
+                text-align: left;
+            }
+
+            &__github img {
+                width: 75px;
+            }
+        }
+    }
+}

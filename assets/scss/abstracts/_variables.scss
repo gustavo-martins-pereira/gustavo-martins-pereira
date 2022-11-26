@@ -4,23 +4,31 @@ $breakpoints: (
     "desktop": 1280px,
 );
 
+$icons-width: (
+    "mobile": 40px,
+);
+
 /*========== COLORS ==========*/
 $alto: hsl(0, 0%, 87%);
 $black-haiti: hsl(249, 58%, 14%);
+$daisy-bush: hsl(249, 69%, 39%);
 $dense-black: hsla(0, 0%, 0%, 0.75);
 $derby: hsl(30, 100%, 93%);
 $firefly: hsl(193, 50%, 7%);
 $flush-orange: hsl(30, 100%, 50%);
 $haiti: hsl(256, 60%, 14%);
 $lucky-point: hsl(248, 58%, 25%);
+$seance: hsl(278, 58%, 34%);
 $white-transparent: hsla(0, 0%, 100%, 0.10);
 
 /*========== BACKGROUNDS ==========*/
 $page-background: linear-gradient($lucky-point, $black-haiti);
 $menu-background: linear-gradient(135deg, $firefly, $haiti);
+$button-background: linear-gradient($seance, $daisy-bush);
 
 /*========== BORDERS ==========*/
 $heavy-box-shadow: -2px 2px 4px $dense-black;
+$light-box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
 
 /*========== TEXTS ==========*/
 // TEXT COLORS

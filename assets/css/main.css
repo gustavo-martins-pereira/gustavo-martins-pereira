@@ -470,6 +470,10 @@ img {
   max-width: 100%;
 }
 
+img[src^="assets/images/icons/"] {
+  width: 40px;
+}
+
 /* RESPONSIVE LAYOUTS */
 /* TABLET */
 /* 736px / 16px = 46rem */
@@ -570,100 +574,13 @@ body {
     font-size: 0.75rem;
   }
 }
-.projects {
-  /* VITRINE DEV */
-  /* PROJECT */
-}
-.projects__title {
-  text-align: center;
-}
-.projects__vitrine-dev {
-  margin: 2rem auto;
-  text-align: center;
-}
-.projects__vitrine-dev__tittle {
-  color: var(--title-text);
-}
-.projects__vitrine-dev__link {
-  background-image: linear-gradient(#632488, #341fa8);
-  display: inline-block;
-  border-radius: 5px;
-  padding: 1rem 1.5rem;
-  color: var(--default-text);
-  font-size: 1.5rem;
-  font-family: "Oxygen", Arial, Helvetica, sans-serif;
-  text-decoration: underline;
-}
-.projects__project__image {
-  display: block;
-  width: 50%;
-  margin: auto;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.projects__project__description {
-  margin-top: 1rem;
-}
-.projects__project__description__title {
-  color: var(--default-text);
-  font-family: --title-font-stack;
-  font-size: 16px;
-  text-align: center;
-}
-.projects__project__description__link {
-  text-decoration: underline;
-}
-.projects__project__description .project--margin-top {
-  margin-top: 1rem;
-}
-.projects__project__description__technologies {
-  margin-top: 0.5rem;
-}
-.projects__project__description__technologies__technologie {
-  width: 2rem;
-}
-.projects__project__description__technologies__technologie:not(:first-child) {
-  margin-left: 1rem;
-}
-.projects__project__description__github {
-  display: inline-block;
-}
-.projects__project__description__github img {
-  width: 2.8rem;
-}
-
-/* RESPONSIVE LAYOUTS */
-/* TABLET */
-/* 736px / 16px = 46rem */
-@media screen and (min-width: 46rem) {
-  .projects__project__image {
-    width: 75%;
-  }
-  .projects__project__description__github img {
-    width: 2.8rem;
-  }
-}
-/* DESKTOP */
-/* 1280px / 16px = 80rem */
-@media screen and (min-width: 80rem) {
-  .projects__project {
-    display: flex;
-  }
-  .projects__project__image {
-    width: 40%;
-  }
-  .projects__project__description {
-    margin-top: 0;
-    margin-left: 2rem;
-  }
-  .projects__project__description__title {
-    font-size: 1.5rem;
-    text-align: left;
-  }
-  .projects__project__description__github img {
-    width: 75px;
-  }
-}
 .contact {
+  width: 80vw;
+  margin: 3.875rem auto 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact__title {
   margin-bottom: 1rem;
 }
 .contact__links {
@@ -672,6 +589,9 @@ body {
 .contact__links__list {
   display: flex;
   justify-content: space-between;
+}
+.contact__links__list img[src^="assets/images/icons/"] {
+  width: 33.3333333333px;
 }
 .contact__links__list a {
   display: inline-block;
@@ -729,20 +649,18 @@ body {
 /* CURRENT COMPANY */
 .current-company {
   width: 80vw;
+  margin: 3.875rem auto 0;
   /* This value change according the nav height */
   padding-top: 4rem;
   text-align: center;
 }
-
 .current-company__description {
   margin-bottom: 1rem;
 }
-
 .current-company__description__link {
-  color: var(--link-menu-hover-text);
+  color: hsl(30deg, 100%, 50%);
   text-decoration: underline;
 }
-
 .current-company__technologies {
   display: flex;
   flex-wrap: wrap;
@@ -753,16 +671,21 @@ body {
 
 /* WORK HISTORY */
 .work-history {
+  width: 80vw;
+  margin: 3.875rem auto 0;
   /* This value change according the nav height */
   padding-top: 4rem;
+  text-align: center;
 }
 
 /* KNOWLEDGE */
 .knowledge {
+  width: 80vw;
+  margin: 3.875rem auto 0;
   /* This value change according the nav height */
   padding-top: 4rem;
+  text-align: center;
 }
-
 .knowledge__technologies {
   display: flex;
   flex-wrap: wrap;
@@ -772,8 +695,71 @@ body {
 
 /* PROJECTS */
 .projects {
+  width: 80vw;
+  margin: 3.875rem auto 0;
   /* This value change according the nav height */
   padding-top: 4rem;
+  /* VITRINE DEV */
+  /* PROJECT */
+}
+.projects__title {
+  text-align: center;
+}
+.projects__vitrine-dev {
+  margin: 2rem auto;
+  text-align: center;
+}
+.projects__vitrine-dev__tittle {
+  color: hsl(30deg, 100%, 50%);
+}
+.projects__vitrine-dev__link {
+  background-image: linear-gradient(hsl(278deg, 58%, 34%), hsl(249deg, 69%, 39%));
+  display: inline-block;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  color: hsl(0deg, 0%, 87%);
+  font-size: 1.5rem;
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+.projects__project__image {
+  display: block;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.projects__project__description {
+  margin-top: 1rem;
+}
+.projects__project__description > * {
+  margin-top: 1rem;
+}
+.projects__project__description img[src^="assets/images/icons/"] {
+  width: 33.3333333333px;
+}
+.projects__project__description__title {
+  color: hsl(0deg, 0%, 87%);
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+}
+.projects__project__description__link {
+  text-decoration: underline;
+}
+.projects__project__description__technologies {
+  margin-top: 0.5rem;
+}
+.projects__project__description__technologies__technologie {
+  width: 1rem;
+}
+.projects__project__description__technologies__technologie:not(:first-child) {
+  margin-left: 1rem;
+}
+.projects__project__description__github {
+  display: inline-block;
+}
+.projects__project__description__github img {
+  width: 2.8rem;
 }
 
 /* RESPONSIVE LAYOUTS */
@@ -801,6 +787,13 @@ body {
   .knowledge__technologies img {
     width: 3rem;
   }
+  /* PROJECTS */
+  .projects__project__image {
+    width: 75%;
+  }
+  .projects__project__description__github img {
+    width: 2.8rem;
+  }
 }
 /* DESKTOP */
 /* 1280px / 16px = 80rem */
@@ -816,5 +809,23 @@ body {
   /* FIXME: To transform in mixin */
   .block--default-margin {
     margin: 6rem auto 0;
+  }
+  /* PROJECTS */
+  .projects__project {
+    display: flex;
+  }
+  .projects__project__image {
+    width: 40%;
+  }
+  .projects__project__description {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+  .projects__project__description__title {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .projects__project__description__github img {
+    width: 75px;
   }
 }/*# sourceMappingURL=main.css.map */

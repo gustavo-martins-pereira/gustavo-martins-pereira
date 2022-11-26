@@ -51,6 +51,10 @@ img {
     max-width: 100%;
 }
 
+img[src^="assets/images/icons/"] {
+    width: map-get($map: $icons-width, $key: "mobile");
+}
+
 /* RESPONSIVE LAYOUTS */
 /* TABLET */
 /* 736px / 16px = 46rem */
