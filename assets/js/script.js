@@ -22,8 +22,9 @@
             
             // Change the style sheet according the status of menu
             if(menuIsActive) {
-                $menu.style.backgroundImage = "var(--menu-background)";
-                $menu.style.boxShadow = "-2px 2px 4px rgba(0, 0, 0, .75)";
+                // TODO: Read the variables SCSS and get the value of the variable
+                $menu.style.backgroundImage = "linear-gradient(135deg, hsl(193, 50%, 7%), hsl(256, 60%, 14%))";
+                $menu.style.boxShadow = "-2px 2px 4px hsla(0, 0%, 0%, 0.75)";
                 
                 $hamburguer_menu.src = "assets/images/icons/Close.svg";
                 
