@@ -8,13 +8,11 @@
         <title>Portfólio</title>
 
         <!-- CSS Files -->
-        <!-- User CSS -->
         <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
     <body>
-        <a class="acessibility--hidden-text acessibility--show-with-tab" href="#about-me">Pular para o conteúdo principal</a>
+        <a href="#about-me" style="display: none;">Pular para o conteúdo principal</a>
 
         <!-- Header -->
         <header class="header">
@@ -22,7 +20,7 @@
                 <img class="menu__hamburguer-menu-icon" src="assets/images/icons/Hamburguer Menu.svg" alt="Botão do Hamburguer menu" data-element-id="hamburguerMenuIcon">
 
                 <!-- Same Page Navigation -->
-                <nav class="menu__nav-page align-text--center" data-element-id="nav_menu">
+                <nav class="menu__nav-page" data-element-id="nav_menu">
                     <ul class="menu__nav-page__links">
                         <li class="menu__nav-page__links__item">
                             <a class="menu__nav-page__links__item__link" href="#about-me" rel="author">Sobre mim</a>
@@ -52,9 +50,8 @@
             </div>
             
             <!-- Introduction -->
-            <article id="about-me" class="introduction width-boxes navigation--padding-top">
-                <!-- <img class="introduction__photo" src="assets/images/Foto para Perfil.PNG" alt="Foto 3x4 de mim tirando uma selfie"> -->
-                <img class="introduction__photo" src="https://picsum.photos/235/431" alt="Foto 3x4 de mim tirando uma selfie">
+            <article id="about-me" class="introduction"> <!-- FIXME: Remove this class and add a mixin to fix the problem -->
+                <img class="introduction__photo" src="assets/images/Foto para Perfil.PNG" alt="Foto 3x4 de mim tirando uma selfie">
                 
                 <h1 class="introduction__text">
                     <span class="introduction__text--margin-bottom">Iaê! Sou <strong>Gustavo Martins Pereira</strong>. <br></span>
@@ -65,7 +62,8 @@
 
         <main>
             <!-- Current Company -->
-            <section id="current-company" class="width-boxes block--default-margin align-text--center navigation--padding-top">
+            <!-- FIXME: Exludes the classes -->
+            <section id="current-company" class="current-company block--default-margin">
                 <h2>Empresa Atual</h2>
                 <p class="current-company__description">Trabalho há 1 ano na <a class="current-company__description__link" href="https://www.etaure.com.br" hreflang="pt-br" target="_blank" rel="external">Etaure</a>, nas seguintes tecnologias:</p>
                 
@@ -83,13 +81,13 @@
             </section>
 
             <!-- Work History -->
-            <section id="work-history" class="width-boxes block--default-margin align-text--center navigation--padding-top">
+            <section id="work-history" class="work-history width-boxes block--default-margin align-text--center">
                 <h2>Histórico de Trabalho</h2>
                 <p>Atualmente ainda estou no meu primeiro emprego :)</p>
             </section>
 
             <!-- Knowledge -->
-            <section id="knowledge" class="width-boxes block--default-margin align-text--center navigation--padding-top">
+            <section id="knowledge" class="knowledge width-boxes block--default-margin align-text--center">
                 <h2>Conhecimentos</h2>
 
                 <div class="knowledge__technologies">
@@ -102,7 +100,7 @@
             </section>
             
             <!-- Projects Already Done -->
-            <article id="projects" class="width-boxes block--default-margin navigation--padding-top">
+            <article id="projects" class="projects width-boxes block--default-margin">
                 <h2 class="projects__title">Projetos já Feitos</h2>
                 
                 <header class="projects__vitrine-dev">

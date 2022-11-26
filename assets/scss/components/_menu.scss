@@ -1,14 +1,16 @@
 .menu {
-    background-image: var(--menu-background);
+    background-image: $menu-background;
 
-    box-shadow: -2px 2px 4px rgba(0, 0, 0, .75);
+    box-shadow: $heavy-box-shadow;
+
+    text-align: center;
 
     &__hamburguer-menu-icon {
         cursor: pointer;
     }
 
     &__nav-page__links__item:not(:last-child) {
-        border-bottom: 1px solid rgba(255, 255, 255, .02);
+        border-bottom: 1px solid $white-transparent;
     }
 
     &__nav-page__links__item__link {
@@ -16,14 +18,14 @@
 
         padding: 1.5rem 3rem;
 
-        color: var(--link-menu-text);
-        font-family: var(--text-font);
+        color: $link-menu-text-color;
+        font-family: $text-font-stack;
         font-size: 1rem;
 
         transition: color .1s ease-in;
 
         &:hover {
-            color: var(--link-menu-hover-text);
+            color: $link-menu-hover-text-color;
         }
     }
 }
@@ -71,12 +73,12 @@
     .no-js,
     .js {
         .menu {
-            background-image: var(--menu-background);
+            background-image: $menu-background;
             width: 100%;
 
             position: fixed;
 
-            box-shadow: -2px 2px 4px rgba(0, 0, 0, .75);
+            box-shadow: $heavy-box-shadow;
 
             &__hamburguer-menu-icon {
                 display: none;

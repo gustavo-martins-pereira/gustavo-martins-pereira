@@ -6,31 +6,33 @@ $breakpoints: (
 
 /*========== COLORS ==========*/
 $alto: hsl(0, 0%, 87%);
-$derby: hsl(30, 100%, 93%);
-$flush-orange: hsl(30, 100%, 50%);
-$firefly: hsl(193, 50%, 7%);
-$lucky-point: hsl(248, 58%, 25%);
 $black-haiti: hsl(249, 58%, 14%);
+$dense-black: hsla(0, 0%, 0%, 0.75);
+$derby: hsl(30, 100%, 93%);
+$firefly: hsl(193, 50%, 7%);
+$flush-orange: hsl(30, 100%, 50%);
 $haiti: hsl(256, 60%, 14%);
+$lucky-point: hsl(248, 58%, 25%);
+$white-transparent: hsla(0, 0%, 100%, 0.10);
 
 /*========== BACKGROUNDS ==========*/
 $page-background: linear-gradient($lucky-point, $black-haiti);
 $menu-background: linear-gradient(135deg, $firefly, $haiti);
 
 /*========== BORDERS ==========*/
-
+$heavy-box-shadow: -2px 2px 4px $dense-black;
 
 /*========== TEXTS ==========*/
 // TEXT COLORS
 // TITLES
-$title-text: $flush-orange;
+$title-text-color: $flush-orange;
 
 // NORMAL TEXT
-$default-text: $alto;
+$default-text-color: $alto;
 
 // LINKS
-$link-menu-text: $derby;
-$link-menu-hover-text: $flush-orange;
+$link-menu-text-color: $derby;
+$link-menu-hover-text-color: $flush-orange;
 
 // TEXT SIZES
 $font-sizes: (

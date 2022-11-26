@@ -21,6 +21,10 @@
 /*========== BORDERS ==========*/
 /*========== TEXTS ==========*/
 /*========== FONTS ==========*/
+/* BUG FIXES */
+/* This class solve the problem with the <a> tag with navigation "href="#"", that when the link is pressed, the page moves so that the initial part of the container is "hidden" behind the navigation menu */
+/* TODO: - Find a better way to solve this problem */
+/* ACESSIBILITY */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -484,25 +488,26 @@ body {
   }
 }
 .menu {
-  background-image: var(--menu-background);
-  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(135deg, hsl(193deg, 50%, 7%), hsl(256deg, 60%, 14%));
+  box-shadow: -2px 2px 4px hsla(0deg, 0%, 0%, 0.75);
+  text-align: center;
 }
 .menu__hamburguer-menu-icon {
   cursor: pointer;
 }
 .menu__nav-page__links__item:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid hsla(0deg, 0%, 100%, 0.1);
 }
 .menu__nav-page__links__item__link {
   display: block;
   padding: 1.5rem 3rem;
-  color: var(--link-menu-text);
-  font-family: var(--text-font);
+  color: hsl(30deg, 100%, 93%);
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
   font-size: 1rem;
   transition: color 0.1s ease-in;
 }
 .menu__nav-page__links__item__link:hover {
-  color: var(--link-menu-hover-text);
+  color: hsl(30deg, 100%, 50%);
 }
 
 /* NO JAVASCRIPT */
@@ -536,10 +541,10 @@ body {
 @media screen and (min-width: 80rem) {
   .no-js .menu,
 .js .menu {
-    background-image: var(--menu-background);
+    background-image: linear-gradient(135deg, hsl(193deg, 50%, 7%), hsl(256deg, 60%, 14%));
     width: 100%;
     position: fixed;
-    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 2px 4px hsla(0deg, 0%, 0%, 0.75);
   }
   .no-js .menu__hamburguer-menu-icon,
 .js .menu__hamburguer-menu-icon {
@@ -690,5 +695,126 @@ body {
   .contact__links__list {
     width: 60%;
     margin: auto;
+  }
+}
+/*============================== Top to Bottom ==============================*/
+/* INTRODUCTION */
+.introduction {
+  width: 80vw;
+  /* This value change according the nav height */
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto auto;
+}
+.introduction__photo {
+  height: 100%;
+  max-height: 18rem;
+  margin-right: 1rem;
+}
+.introduction__text {
+  display: inline-block;
+  margin: 0;
+  color: hsl(0deg, 0%, 87%);
+  font-size: 16px;
+  font-family: "Oxygen", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 1.5rem;
+}
+.introduction__text--margin-bottom {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* CURRENT COMPANY */
+.current-company {
+  width: 80vw;
+  /* This value change according the nav height */
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.current-company__description {
+  margin-bottom: 1rem;
+}
+
+.current-company__description__link {
+  color: var(--link-menu-hover-text);
+  text-decoration: underline;
+}
+
+.current-company__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem 4rem;
+}
+
+/* WORK HISTORY */
+.work-history {
+  /* This value change according the nav height */
+  padding-top: 4rem;
+}
+
+/* KNOWLEDGE */
+.knowledge {
+  /* This value change according the nav height */
+  padding-top: 4rem;
+}
+
+.knowledge__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem 4rem;
+}
+
+/* PROJECTS */
+.projects {
+  /* This value change according the nav height */
+  padding-top: 4rem;
+}
+
+/* RESPONSIVE LAYOUTS */
+/* TABLET */
+/* 736px / 16px = 46rem */
+@media screen and (min-width: 46rem) {
+  /*============================== Generic Elements ==============================*/
+  html {
+    font-size: 24px;
+  }
+  /*============================== Generic Classes ==============================*/
+  .width-boxes {
+    width: 60vw;
+  }
+  /*============================== Page - Top to Bottom ==============================*/
+  /* INTRODUCTION */
+  .introduction__text {
+    width: 40%;
+  }
+  /* CURRENT COMPANY */
+  .current-company__technologies img {
+    width: 3rem;
+  }
+  /* KNOWLEDGE */
+  .knowledge__technologies img {
+    width: 3rem;
+  }
+}
+/* DESKTOP */
+/* 1280px / 16px = 80rem */
+@media screen and (min-width: 80rem) {
+  /*============================== Generic Elements ==============================*/
+  h2 {
+    font-size: 2rem;
+  }
+  /*============================== Generic Classes ==============================*/
+  .width-boxes {
+    width: 60vw;
+  }
+  /* FIXME: To transform in mixin */
+  .block--default-margin {
+    margin: 6rem auto 0;
   }
 }/*# sourceMappingURL=main.css.map */
