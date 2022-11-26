@@ -1,0 +1,42 @@
+@mixin width-content {
+    width: 80vw;
+}
+
+@mixin block--default-margin {
+    margin: 3.875rem auto 0;
+}
+
+/* BUG FIXES */
+/* This class solve the problem with the <a> tag with navigation "href="#"", that when the link is pressed, the page moves so that the initial part of the container is "hidden" behind the navigation menu */
+/* TODO: - Find a better way to solve this problem */
+@mixin navigation--padding-top {
+    /* This value change according the nav height */
+    padding-top: 4rem;
+}
+
+/* ACESSIBILITY */
+@mixin acessibility--hidden-text {
+    width: 1px;
+    height: 1px;
+    
+    position: absolute;
+
+    color: transparent;
+
+    overflow: hidden;
+}
+
+// ON FOCUS
+@mixin acessibility--show-with-tab {
+    width: auto;
+    height: auto;
+
+    top: 4rem;
+    left: 1rem;
+
+    color: white;
+    font-family: var(--text-font);
+    text-decoration: underline;
+
+    overflow: visible;
+}
