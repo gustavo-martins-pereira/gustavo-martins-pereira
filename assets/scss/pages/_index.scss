@@ -158,8 +158,6 @@
                 margin-top: 0.5rem;
 
                 &__technologie {
-                    width: 1rem;
-
                     &:not(:first-child) {
                         margin-left: 1rem;
                     }
@@ -181,20 +179,11 @@
 /* TABLET */
 /* 736px / 16px = 46rem */
 @media screen and (min-width: 46rem) {
-    /*============================== Generic Elements ==============================*/
-    html {
-        font-size: 24px;
-    }
-
-    /*============================== Generic Classes ==============================*/
-    .width-boxes {
-        width: 60vw;
-    }
-
-    /*============================== Page - Top to Bottom ==============================*/
     /* INTRODUCTION */
     .introduction__text {
         width: 40%;
+
+        font-size: map-get($map: $font-sizes, $key: "tablet-font-size");
     }
 
     /* CURRENT COMPANY */
@@ -212,6 +201,14 @@
         width: 75%;
     }
 
+    .projects__project__description__technologies__technologie {
+        width: 60px;//map-get($map: $icons-width, $key: "tablet");
+    }
+    
+    .projects__project__description img[src^="assets/images/icons/"] {
+        width: 50px;
+    }
+
     .projects__project__description__github img {
         width: 2.8rem;
     }
@@ -220,19 +217,9 @@
 /* DESKTOP */
 /* 1280px / 16px = 80rem */
 @media screen and (min-width: 80rem) {
-    /*============================== Generic Elements ==============================*/
-    h2 {
-        font-size: 2rem;
-    }
-
-    /*============================== Generic Classes ==============================*/
-    .width-boxes {
-        width: 60vw;
-    }
-
-    /* FIXME: To transform in mixin */
-    .block--default-margin {
-        margin: 6rem auto 0;
+    /* INTRODUCTION */
+    .introduction__text {
+        font-size: map-get($map: $font-sizes, $key: "desktop-font-size");
     }
 
     /* PROJECTS */

@@ -34,7 +34,7 @@
 /* TABLET */
 /* 736px / 16px = 46rem */
 @media screen and (min-width: 46rem) {
-    .contact__links__list img {
+    .contact__links__list img[src^="assets/images/icons/"] {
         width: 2rem;
     }
 }

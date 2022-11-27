@@ -441,23 +441,23 @@ h3 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h2 {
   margin-bottom: 1.5rem;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 h3 {
   margin-bottom: 1.25rem;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 p {
   color: hsl(0deg, 0%, 87%);
   font-family: "Oxygen", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 
@@ -471,7 +471,7 @@ img {
 }
 
 img[src^="assets/images/icons/"] {
-  width: 40px;
+  width: 35px;
 }
 
 /* RESPONSIVE LAYOUTS */
@@ -481,6 +481,9 @@ img[src^="assets/images/icons/"] {
   html,
 body {
     font-size: 20px;
+  }
+  img[src^="assets/images/icons/"] {
+    width: 40px;
   }
 }
 /* DESKTOP */
@@ -591,7 +594,7 @@ body {
   justify-content: space-between;
 }
 .contact__links__list img[src^="assets/images/icons/"] {
-  width: 33.3333333333px;
+  width: 29.1666666667px;
 }
 .contact__links__list a {
   display: inline-block;
@@ -602,7 +605,7 @@ body {
 /* TABLET */
 /* 736px / 16px = 46rem */
 @media screen and (min-width: 46rem) {
-  .contact__links__list img {
+  .contact__links__list img[src^="assets/images/icons/"] {
     width: 2rem;
   }
 }
@@ -735,7 +738,7 @@ body {
   margin-top: 1rem;
 }
 .projects__project__description img[src^="assets/images/icons/"] {
-  width: 33.3333333333px;
+  width: 29.1666666667px;
 }
 .projects__project__description__title {
   color: hsl(0deg, 0%, 87%);
@@ -748,9 +751,6 @@ body {
 }
 .projects__project__description__technologies {
   margin-top: 0.5rem;
-}
-.projects__project__description__technologies__technologie {
-  width: 1rem;
 }
 .projects__project__description__technologies__technologie:not(:first-child) {
   margin-left: 1rem;
@@ -766,18 +766,10 @@ body {
 /* TABLET */
 /* 736px / 16px = 46rem */
 @media screen and (min-width: 46rem) {
-  /*============================== Generic Elements ==============================*/
-  html {
-    font-size: 24px;
-  }
-  /*============================== Generic Classes ==============================*/
-  .width-boxes {
-    width: 60vw;
-  }
-  /*============================== Page - Top to Bottom ==============================*/
   /* INTRODUCTION */
   .introduction__text {
     width: 40%;
+    font-size: 20px;
   }
   /* CURRENT COMPANY */
   .current-company__technologies img {
@@ -791,6 +783,12 @@ body {
   .projects__project__image {
     width: 75%;
   }
+  .projects__project__description__technologies__technologie {
+    width: 60px;
+  }
+  .projects__project__description img[src^="assets/images/icons/"] {
+    width: 50px;
+  }
   .projects__project__description__github img {
     width: 2.8rem;
   }
@@ -798,17 +796,9 @@ body {
 /* DESKTOP */
 /* 1280px / 16px = 80rem */
 @media screen and (min-width: 80rem) {
-  /*============================== Generic Elements ==============================*/
-  h2 {
-    font-size: 2rem;
-  }
-  /*============================== Generic Classes ==============================*/
-  .width-boxes {
-    width: 60vw;
-  }
-  /* FIXME: To transform in mixin */
-  .block--default-margin {
-    margin: 6rem auto 0;
+  /* INTRODUCTION */
+  .introduction__text {
+    font-size: 24px;
   }
   /* PROJECTS */
   .projects__project {

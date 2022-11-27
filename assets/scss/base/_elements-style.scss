@@ -19,25 +19,25 @@ h3 {
     font-family: $title-font-stack;
 }
     h1 {
-        font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 2;
+        font-size: 1rem * 2;
     }
 
     h2 {
         margin-bottom: 1.5rem;
 
-        font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 1.75;
+        font-size: 1rem * 1.75;
     }
 
     h3 {
         margin-bottom: 1.25rem;
 
-        font-size: map-get($map: $font-sizes, $key: "mobile-font-size") * 1.5;
+        font-size: 1rem * 1.5;
     }
 
 p {
     color: $default-text-color;
     font-family: $text-font-stack;
-    font-size: map-get($map: $font-sizes, $key: "mobile-font-size");
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
@@ -61,7 +61,11 @@ img[src^="assets/images/icons/"] {
 @media screen and (min-width: map-get($breakpoints, "tablet")) {
     html,
     body {
-        font-size: map-get($map: $font-sizes, $key: "tablet-font-size"); 
+        font-size: map-get($map: $font-sizes, $key: "tablet-font-size");
+    }
+
+    img[src^="assets/images/icons/"] {
+        width: map-get($map: $icons-width, $key: "tablet");
     }
 }
 
