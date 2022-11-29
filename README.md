@@ -46,6 +46,8 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
 <div align="center"><br/>
     <img alt="HTML Logo" height="60" width="50" src="./icons/html-5.svg" />
     <img alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg" />
+    <img alt="SASS Logo" height="60" width="50" src="./icons/sass.svg" />
+    <img alt="JavaScript Logo" height="60" width="50" src="./icons/javascript.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
     <img alt="Python Logo" height="60" width="50" src="./icons/python.svg" />
     <img alt="Elixir Logo" height="60" width="50" src="./icons/elixir.svg" />
