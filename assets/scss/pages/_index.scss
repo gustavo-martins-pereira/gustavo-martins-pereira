@@ -123,6 +123,17 @@
 
     /* PROJECT */
     &__project {
+
+        margin-bottom: 2rem;
+
+        &:nth-child(odd) {
+            flex-direction: row;
+        }
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
         &__image {
             display: block;
     
@@ -155,9 +166,14 @@
             }
 
             &__technologies {
+                display: flex;
+
                 margin-top: 0.5rem;
 
                 &__technologie {
+                    width: map-get($map: $icons-width, $key: "mobile");
+                    height: map-get($map: $icons-width, $key: "mobile");
+
                     &:not(:first-child) {
                         margin-left: 1rem;
                     }
@@ -202,7 +218,8 @@
     }
 
     .projects__project__description__technologies__technologie {
-        width: 60px;//map-get($map: $icons-width, $key: "tablet");
+        width: map-get($map: $icons-width, $key: "tablet");
+        height: map-get($map: $icons-width, $key: "tablet");
     }
     
     .projects__project__description img[src^="assets/images/icons/"] {
@@ -232,6 +249,8 @@
 
         &__description {
             margin-top: 0;
+
+            // FIXME: Apply the margin only with odd elements
             margin-left: 2rem;
 
             &__title {
@@ -239,8 +258,13 @@
                 text-align: left;
             }
 
+            &__technologies__technologie {
+                width: map-get($map: $icons-width, $key: "desktop");
+                height: map-get($map: $icons-width, $key: "desktop");
+            }
+
             &__github img {
-                width: 75px;
+                width: 90px;
             }
         }
     }

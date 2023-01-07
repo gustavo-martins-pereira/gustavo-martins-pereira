@@ -48,6 +48,8 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <img alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg" />
     <img alt="SASS Logo" height="60" width="50" src="./icons/sass.svg" />
     <img alt="JavaScript Logo" height="60" width="50" src="./icons/javascript.svg" />
+    <img alt="Node Logo" height="60" width="50" src="./icons/nodejs-icon.svg" />
+    <img alt="Node Logo" height="60" width="50" src="./icons/express.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
     <img alt="Python Logo" height="60" width="50" src="./icons/python.svg" />
     <img alt="Elixir Logo" height="60" width="50" src="./icons/elixir.svg" />
@@ -67,6 +69,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
  </a>
  
+ <!-- Portfolio -->
  <a href="https://volaxy.github.io/Volaxy/" target="_blank">
    <img src="https://img.shields.io/badge/PORTFOLIO-0A182E?style=for-the-badge" alt="Portfolio shield">
  </a>
