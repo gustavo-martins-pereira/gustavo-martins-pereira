@@ -48,8 +48,9 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <img alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg" />
     <img alt="SASS Logo" height="60" width="50" src="./icons/sass.svg" />
     <img alt="JavaScript Logo" height="60" width="50" src="./icons/javascript.svg" />
+    <img alt="jQuery Logo" height="60" width="50" src="./icons/jQuery Logo.svg" />
     <img alt="Node Logo" height="60" width="50" src="./icons/nodejs-icon.svg" />
-    <img alt="Node Logo" height="60" width="50" src="./assets/images/icons/Express Logo.svg" />
+    <img alt="Express Logo" height="60" width="50" src="./assets/images/icons/Express Logo.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
     <img alt="Python Logo" height="60" width="50" src="./icons/python.svg" />
     <img alt="Elixir Logo" height="60" width="50" src="./icons/elixir.svg" />
