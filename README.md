@@ -11,7 +11,7 @@
 
 ## Introdução Sobre Mim 🧭
 - 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
-- 🌱 Estou aprendendo [TypeScript]([https://cursos.alura.com.br/formacao-css-estilos](https://cursos.alura.com.br/formacao-typescript)), (espero que eu consiga
+- 🌱 Estou aprendendo [TypeScript](https://cursos.alura.com.br/formacao-typescript), (espero que eu consiga
 zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com **Angular** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
