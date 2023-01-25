@@ -819,14 +819,20 @@ body {
   .projects__project {
     display: flex;
   }
+  .projects__project:nth-child(even) .projects__project__description {
+    margin-left: 0;
+    margin-right: 2rem;
+  }
   .projects__project__image {
     width: 40%;
+    margin: 0;
   }
   .projects__project__description {
     margin-top: 0;
     margin-left: 2rem;
   }
   .projects__project__description__title {
+    margin-top: 0;
     font-size: 1.5rem;
     text-align: left;
   }

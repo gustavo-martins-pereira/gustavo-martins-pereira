@@ -243,8 +243,19 @@
     .projects__project {
         display: flex;
 
+        &:nth-child(even) {
+            & .projects__project__description {
+                margin: {
+                    left: 0;
+                    right: 2rem;
+                }
+            }
+        }
+
         &__image {
             width: 40%;
+
+            margin: 0;
         }
 
         &__description {
@@ -254,6 +265,8 @@
             margin-left: 2rem;
 
             &__title {
+                margin-top: 0;
+
                 font-size: 1.5rem;
                 text-align: left;
             }
