@@ -49,19 +49,5 @@
                 menuIsActive = false;
             }
         }
-
-        // Close menu when click outside screen
-        window.addEventListener("click", event => {
-            if(!event.composedPath().includes($menu)) {
-                $menu.style.backgroundImage = "none";
-                $menu.style.boxShadow = "none";
-                
-                $hamburguer_menu.src = "assets/images/icons/Hamburguer Menu.svg";
-
-                $nav_menu.style.height = 0;
-
-                menuIsActive = false;
-            }
-        });
     }
 }());
