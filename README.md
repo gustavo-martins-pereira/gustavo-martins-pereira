@@ -13,7 +13,7 @@
 - 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
 - 🌱 Estou aprendendo [TypeScript](https://cursos.alura.com.br/formacao-typescript), (espero que eu consiga
 zerar a Alura algum dia 🤣).
-- 🤔 Estou procurando ajuda com **Angular** 😦.
+- 🤔 Estou procurando ajuda com **Bootstrap** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um <a href="mailto:guga.PRO.00@hotmail.com">E-mail</a> 😉.
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
