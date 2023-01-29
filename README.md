@@ -51,6 +51,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <img alt="jQuery Logo" height="60" width="100" src="./icons/jquery.svg" />
     <img alt="Node Logo" height="60" width="50" src="./icons/nodejs-icon.svg" />
     <img alt="Express Logo" height="60" width="50" src="./assets/images/icons/Express Logo.svg" />
+    <img alt="TypeScript Logo" height="60" width="50" src="./assets/images/icons/TypeScript Logo.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
     <img alt="Python Logo" height="60" width="50" src="./icons/python.svg" />
     <img alt="Elixir Logo" height="60" width="50" src="./icons/elixir.svg" />
