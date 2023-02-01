@@ -11,7 +11,7 @@
 
 ## Introdução Sobre Mim 🧭
 - 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
-- 🌱 Estou aprendendo [Bootstrap]([https://cursos.alura.com.br/formacao-typescript](https://www.udemy.com/course/bootstrap-5-do-basico-ao-avancado-com-4-projetos/)), (espero que eu consiga
+- 🌱 Estou aprendendo [Bootstrap](https://www.udemy.com/course/bootstrap-5-do-basico-ao-avancado-com-4-projetos/), (espero que eu consiga
 zerar a Alura algum dia 🤣).
 - 🤔 Estou procurando ajuda com **Bootstrap** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
