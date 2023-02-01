@@ -695,6 +695,26 @@ body {
   justify-content: space-around;
   gap: 2rem 4rem;
 }
+.knowledge__technologies--learning {
+  display: flex;
+  position: relative;
+}
+.knowledge__technologies--learning::after {
+  content: "Aprendendo";
+  width: 150%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  border-radius: 3px;
+  color: hsl(30deg, 100%, 50%);
+  font-family: "Roboto Mono", "Courier New", Courier, monospace;
+  font-size: 1rem;
+  text-align: center;
+  transform: translate(-17.5%, 50%) rotateZ(-15deg);
+}
 
 /* PROJECTS */
 .projects {

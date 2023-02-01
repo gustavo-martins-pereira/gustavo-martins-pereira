@@ -83,6 +83,35 @@
         flex-wrap: wrap;
         justify-content: space-around;
         gap: 2rem 4rem;
+
+        &--learning {
+            display: flex;
+
+            position: relative;
+         
+            &::after {
+                content: "Aprendendo";
+    
+                width: 150%;
+                height: 35px;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                position: absolute;
+                top: 0;
+
+                border-radius: 3px;
+
+                color: $title-text-color;
+                font-family: $title-font-stack;
+                font-size: 1rem;
+                text-align: center;
+
+                transform: translate(-17.5%, 50%) rotateZ(-15deg);
+            }
+        }
     }
 }
 
