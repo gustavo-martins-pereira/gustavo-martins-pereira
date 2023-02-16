@@ -14,6 +14,7 @@
         max-height: 18rem;
         
         margin-right: 1rem;
+        border-radius: 50%;
     }
 
     &__text {
@@ -31,6 +32,10 @@
             display: block;
 
             margin-bottom: 1rem;
+        }
+
+        &__strong {
+            color: $title-text-color;
         }
     }
 }
@@ -242,21 +247,27 @@
     }
 
     /* PROJECTS */
-    .projects__project__image {
-        width: 75%;
-    }
+    .projects__project {
+        &__image {
+            width: 75%;
+        }
 
-    .projects__project__description__technologies__technologie {
-        width: map-get($map: $icons-width, $key: "tablet");
-        height: map-get($map: $icons-width, $key: "tablet");
-    }
+        &__description__title {
+            font-size: 1.5rem;
+        }
     
-    .projects__project__description img[src^="assets/images/icons/"] {
-        width: 50px;
-    }
-
-    .projects__project__description__github img {
-        width: 2.8rem;
+        &__description__technologies__technologie {
+            width: map-get($map: $icons-width, $key: "tablet");
+            height: map-get($map: $icons-width, $key: "tablet");
+        }
+        
+        &__description img[src^="assets/images/icons/"] {
+            width: 50px;
+        }
+    
+        &__description__github img {
+            width: 2.8rem;
+        }
     }
 }
 
@@ -273,11 +284,21 @@
         display: flex;
 
         &:nth-child(even) {
+            & .projects__project__image {
+                margin-right: 0;
+            }
+
             & .projects__project__description {
                 margin: {
                     left: 0;
                     right: 2rem;
                 }
+            }
+        }
+
+        &:nth-child(odd) {
+            & .projects__project__image {
+                margin: 0;
             }
         }
 
