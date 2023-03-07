@@ -18,7 +18,7 @@
             justify-content: space-between;
 
             & img[src^="assets/images/icons/"] {
-                width: map-get($map: $icons-width, $key: "mobile") / 1.2;
+                width: map-get($map: $icons-width, $key: "mobile");
             }
 
             & a {
