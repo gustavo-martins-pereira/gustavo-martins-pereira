@@ -11,9 +11,9 @@
 
 ## Introdução Sobre Mim 🧭
 - 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
-- 🌱 Estou aprendendo [Bootstrap](https://www.udemy.com/course/bootstrap-5-do-basico-ao-avancado-com-4-projetos/), (espero que eu consiga
+- 🌱 Estou aprendendo [React](https://cursos.alura.com.br/formacao-react-javascript), (espero que eu consiga
 zerar a Alura algum dia 🤣).
-- 🤔 Estou procurando ajuda com **Bootstrap** 😦.
+- 🤔 Estou procurando ajuda com **React** 😦.
 - 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
 - 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um <a href="mailto:guga.PRO.00@hotmail.com">E-mail</a> 😉.
 - ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
