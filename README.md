@@ -10,14 +10,13 @@
 # Iaê!!! Sou Gustavo 👋
 
 ## Introdução Sobre Mim 🧭
-- 🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.
-- 🌱 Estou aprendendo [Bootstrap](https://www.udemy.com/course/bootstrap-5-do-basico-ao-avancado-com-4-projetos/), (espero que eu consiga
-zerar a Alura algum dia 🤣).
-- 🤔 Estou procurando ajuda com **Bootstrap** 😦.
-- 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.
-- 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um <a href="mailto:guga.PRO.00@hotmail.com">E-mail</a> 😉.
-- ⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.
-- 🎨 Cor Favorita: Lilás 🟪 > Ciano 🟦.
+🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.<br>
+🌱 Estou aprendendo [React](https://cursos.alura.com.br/formacao-react-javascript), (espero que eu consiga zerar a Alura algum dia 🤣).<br>
+🤔 Estou procurando ajuda com **React** 😦.<br>
+💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.<br>
+📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um <a href="mailto:guga.PRO.00@hotmail.com">E-mail</a> 😉.<br>
+⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.<br>
+🎨 Cor Favorita: Lilás 🟪 > Ciano 🟦.<br>
 
 ## Navegando pelos Repositórios 🚢
 Os diretórios estão divididos em subcategorias que são:
@@ -48,14 +47,10 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <img alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg" />
     <img alt="SASS Logo" height="60" width="50" src="./icons/sass.svg" />
     <img alt="JavaScript Logo" height="60" width="50" src="./icons/javascript.svg" />
-    <img alt="jQuery Logo" height="60" width="100" src="./icons/jquery.svg" />
     <img alt="Node Logo" height="60" width="50" src="./icons/nodejs-icon.svg" />
     <img alt="Express Logo" height="60" width="50" src="./assets/images/icons/Express Logo.svg" />
-    <img alt="TypeScript Logo" height="60" width="50" src="./assets/images/icons/TypeScript Logo.svg" />
     <img alt="Webpack Logo" height="60" width="50" src="./assets/images/icons/Webpack Logo.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
-    <img alt="Python Logo" height="60" width="50" src="./icons/python.svg" />
-    <img alt="Elixir Logo" height="60" width="50" src="./icons/elixir.svg" />
 </div>
 
 ***
