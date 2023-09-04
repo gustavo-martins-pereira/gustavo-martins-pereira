@@ -10,7 +10,7 @@
 # Iaê!!! Sou Gustavo 👋
 
 ## Introdução Sobre Mim 🧭
-🔭 Atualmente trabalho como **Full Stack** em **HTML**, **CSS**, **JavaScript**, **C#** e **Angular**.<br>
+🔭 Atualmente trabalho com **Projetos Pessoais** usando **HTML**, **CSS**, **JavaScript** e **React**.<br>
 🌱 Estou aprendendo [React](https://cursos.alura.com.br/formacao-react-javascript), (espero que eu consiga zerar a Alura algum dia 🤣).<br>
 🤔 Estou procurando ajuda com **React** 😦.<br>
 💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.<br>
@@ -47,6 +47,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <img alt="CSS Logo" height="60" width="50" src="./icons/css-3.svg" />
     <img alt="SASS Logo" height="60" width="50" src="./icons/sass.svg" />
     <img alt="JavaScript Logo" height="60" width="50" src="./icons/javascript.svg" />
+    <img alt="React Logo" height="60" width="50" src="./icons/react.svg" />
     <img alt="Node Logo" height="60" width="50" src="./icons/nodejs-icon.svg" />
     <img alt="Express Logo" height="60" width="50" src="./assets/images/icons/Express Logo.svg" />
     <img alt="Webpack Logo" height="60" width="50" src="./assets/images/icons/Webpack Logo.svg" />
@@ -73,5 +74,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
  </a>
    
 </div>
+
+> Animação em conserto... (sem gif da cobrinha comendo os commits por enquanto T-T)
 
 ![snake gif](https://github.com/Volaxy/Volaxy/blob/output/github-contribution-grid-snake.gif)
