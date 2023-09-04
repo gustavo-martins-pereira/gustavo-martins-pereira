@@ -74,4 +74,4 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
    
 </div>
 
-![Snake animation](https://github.com/Volaxy/Volaxy/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/Volaxy/Volaxy/blob/output/github-contribution-grid-snake.svg)
