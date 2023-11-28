@@ -10,13 +10,9 @@
 # Iaê!!! Sou Gustavo 👋
 
 ## Introdução Sobre Mim 🧭
-🔭 Atualmente trabalho com **Projetos Pessoais** usando **HTML**, **CSS**, **JavaScript** e **React**.<br>
-🌱 Estou aprendendo [React](https://cursos.alura.com.br/formacao-react-javascript), (espero que eu consiga zerar a Alura algum dia 🤣).<br>
-🤔 Estou procurando ajuda com **React** 😦.<br>
-💬 Pergunte-me sobre Curiosidades Aleatórias sobre absolutamente QUALQUER COISA XD.<br>
+🔭 Atualmente trabalho com **Back-end** usando **NestJS**.<br>
 📫 Como entrar em contato comigo: Só me add no Discord (Gustavo Pereira#9410), ou me mandar um <a href="mailto:guga.PRO.00@hotmail.com">E-mail</a> 😉.<br>
-⚡ Curiosidades: Você sabia que a sua pupila não existe??? 😮.<br>
-🎨 Cor Favorita: Lilás 🟪 > Ciano 🟦.<br>
+🎨 Cor Favorita: Lilás 🟪.<br>
 
 ## Navegando pelos Repositórios 🚢
 Os diretórios estão divididos em subcategorias que são:
@@ -51,6 +47,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <img alt="React Logo" height="60" width="50" src="./icons/react.svg" />
     <img alt="Node Logo" height="60" width="50" src="./icons/nodejs-icon.svg" />
     <img alt="Express Logo" height="60" width="50" src="./assets/images/icons/Express Logo.svg" />
+    <img alt="NestJS Logo" height="60" width="50" src="./assets/images/icons/NestJS Logo.svg" />
     <img alt="Webpack Logo" height="60" width="50" src="./assets/images/icons/Webpack Logo.svg" />
     <img alt="Java Logo" height="60" width="50" src="./icons/java.svg" />
 </div>
