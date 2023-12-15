@@ -25,7 +25,7 @@
     <font size="5">🌐 Linguagens e Frameworks 🌐</font>
 </h3>
 
-<div class="technologies">
+<div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/html-5.svg" alt="Logo do HTML5">
     <img class="technologies__icon" src="./images/icons/css-3.svg" alt="Logo do CSS3">
     <img class="technologies__icon" src="./images/icons/bootstrap.svg" alt="Logo do Bootstrap">
@@ -35,16 +35,20 @@
     <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
     <img class="technologies__icon" src="./images/icons/nodejs.svg" alt="Logo do NodeJs">
     <img class="technologies__icon" src="./images/icons/java.svg" alt="Logo do Java">
+    <img class="technologies__icon" src="./images/icons/ruby.svg" alt="Logo do Ruby">
+    <img class="technologies__icon" src="./images/icons/rails.svg" alt="Logo do Ruby on Rails">
 </div>
 
 <h3 align="center">
     <font size="5">🛠️ Ferramentas 🛠️</font>
 </h3>
 
-<div class="technologies">
+<div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/git.svg" alt="Logo do Git">
     <img class="technologies__icon" src="./images/icons/vscode.svg" alt="Logo do VS Code">
     <img class="technologies__icon" src="./images/icons/figma.svg" alt="Logo do VS Code">
+    <img class="technologies__icon" src="./images/icons/ruby-gems.svg" alt="Logo do Ruby Gems">
+    <img class="technologies__icon" src="./images/icons/github.svg" alt="Logo do Github">
 </div>
 
 <h2 align="center">
