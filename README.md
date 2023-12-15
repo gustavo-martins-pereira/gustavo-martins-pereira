@@ -1,84 +1,8 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-
-    @keyframes icons {
-        from {
-            transform: translateY(0px);
-        }
-        
-        25% {
-            transform: translateY(-5px);
-        }
-        
-        30% {
-            transform: translateY(-7px);
-        }
-        
-        50% {
-            transform: translateY(0px);
-        }
-
-        70% {
-            transform: translateY(5px);
-        }
-
-        75% {
-            transform: translateY(7px);
-        }
-
-        to {
-            transform: translateY(0px);
-        }
-    }
-
-    a::after {
-        content: "🔗"
-    }
-
-    .title {
-        font-family: 'Caveat', cursive;
-        text-align: center;
-    }
-
-    .introduction__text {
-        text-align: justify;
-    }
-
-    .introduction__text p {
-        float: left;
-        text-indent: 32px;
-    }
-
-    .technologies {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 48px;
-    }
-
-    .technologies__icon {
-        animation: icons 6s infinite ease-in;
-    }
-
-        .technologies__icon:nth-of-type(2n) {
-            animation-delay: 0.5s;
-        }
-        .technologies__icon:nth-of-type(3n) {
-            animation-delay: 1s;
-        }
-        .technologies__icon:nth-of-type(4n) {
-            animation-delay: 0.75s;
-        }
-        .technologies__icon:nth-of-type(5n) {
-            animation-delay: 0.25s;
-        }
-</style>
-
-<h1 class="title">
+<h1 align="center">
     <font size="7">Gustavo Martins Pereira</font>
 </h1>
 
-<h2 class="title">
+<h2 align="center">
     <font size="6">❔ Quem sou eu ❔</font>
 </h2>
 
@@ -93,11 +17,11 @@
     <img src="./images/profile.jpg" alt="Foto de perfil de mim com cabelo cacheado castanho">
 </div>
 
-<h2 class="title">
+<h2 align="center">
     <font size="6">👨‍💻 Tecnologias que Uso 👨‍💻</font>
 </h2>
 
-<h3 class="title">
+<h3 align="center">
     <font size="5">🌐 Linguagens e Frameworks 🌐</font>
 </h3>
 
@@ -113,7 +37,7 @@
     <img class="technologies__icon" src="./images/icons/java.svg" alt="Logo do Java">
 </div>
 
-<h3 class="title">
+<h3 align="center">
     <font size="5">🛠️ Ferramentas 🛠️</font>
 </h3>
 
@@ -123,7 +47,7 @@
     <img class="technologies__icon" src="./images/icons/figma.svg" alt="Logo do VS Code">
 </div>
 
-<h2 class="title">
+<h2 align="center">
     <font size="6">🚢 Navegando pelos Repositórios 🚢</font>
 </h2>
 
