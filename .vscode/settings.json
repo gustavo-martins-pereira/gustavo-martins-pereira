@@ -1,9 +1,0 @@
-{
-    "liveSassCompile.settings.formats": [
-        {
-            "savePath": "/assets/css",
-            "linefeed": "crlf"
-        }
-    ],
-    "liveServer.settings.port": 5501
-}
