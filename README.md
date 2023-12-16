@@ -25,6 +25,22 @@
     <font size="5">🌐 Linguagens e Frameworks 🌐</font>
 </h3>
 
+<details>
+    <summary><b><i>Linguagens e Frameworks em forma de texto</i></b></summary>
+
+    * HTML5
+    * CSS3
+    * Bootstrap
+    * SASS
+    * JavaScript
+    * Express
+    * React
+    * NodeJS
+    * Java
+    * Ruby
+    * Ruby on Rails
+</details>
+
 <div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/html-5.svg" alt="Logo do HTML5">
     <img class="technologies__icon" src="./images/icons/css-3.svg" alt="Logo do CSS3">
@@ -42,6 +58,16 @@
 <h3 align="center">
     <font size="5">🛠️ Ferramentas 🛠️</font>
 </h3>
+
+<details>
+    <summary><b><i>Ferramentas em forma de texto</i></b></summary>
+
+    * Git
+    * Visual Studio Code
+    * Figma
+    * Ruby Gems
+    * Github
+</details>
 
 <div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/git.svg" alt="Logo do Git">
