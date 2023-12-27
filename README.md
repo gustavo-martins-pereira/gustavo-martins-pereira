@@ -102,13 +102,13 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
 Você pode enviar uma mensagem por *WhatsApp* para o número **(55) 27 99695-2026**, ou enviar uma mensagem para o meu E-mail **gustavo.martins.pereira.main@gmail.com**.
 
 <div align="center">
+    <a href="mailto:guga.pro.00@hotmail.com">
+        <img src="https://img.shields.io/badge/Hotmail-0077B5?style=for-the-badge&logo=microsoft&logoColor=white" alt="Enviar ema mensagem para o meu email" />
+    </a>
     <a href="https://api.whatsapp.com/send?phone=5527996952026">
         <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Mensagem para o meu número do WhatsApp" />
     </a>
     <a href="https://www.linkedin.com/in/gustavo-martins-pereira-20a504198/">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Meu perfil no Linkedin" />
-    </a>
-    <a href="mailto:gustavo.martins.pereira.main@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Enviar ema mensagem para o meu email" />
     </a>
 </div>
