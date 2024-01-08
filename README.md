@@ -99,7 +99,7 @@ GitHub](https://docs.github.com/pt/search-github/searching-on-github/searching-f
     <font size="6">📞 Formas de Contato 📞</font>
 </h2>
 
-Você pode enviar uma mensagem por *WhatsApp* para o número **(55) 27 99695-2026**, ou enviar uma mensagem para o meu E-mail **gustavo.martins.pereira.main@gmail.com**.
+Você pode enviar uma mensagem por *WhatsApp* para o número **(55) 27 99695-2026**, ou enviar uma mensagem para o meu E-mail **guga.pro.00@hotmail.com**.
 
 <div align="center">
     <a href="mailto:guga.pro.00@hotmail.com">
