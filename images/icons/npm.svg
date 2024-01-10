@@ -1,8 +1,8 @@
-<svg width="152" height="61" viewBox="0 0 152 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="1" width="152" height="60" fill="url(#paint0_radial_6_6)"/>
-<path d="M8 0H144V45.4279H76V53H45.7789V45.423H8V0ZM15.5577 37.8558H30.6683V15.1394H38.2211V37.8509H45.7789V7.57212H15.5577V37.8558ZM53.3366 7.57212V45.4279H68.4471V37.8558H83.5577V7.57212H53.3366ZM68.4471 15.1442H76V30.2885H68.4423L68.4471 15.1442ZM91.1154 7.57212V37.8558H106.226V15.1394H113.784V37.8509H121.341V15.1394H128.899V37.8509H136.457V7.57212H91.1154Z" fill="#CB3837"/>
+<svg width="146" height="61" viewBox="0 0 146 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 0H141V47.9953H73V56H42.7729V47.9953H5V0ZM12.5568 40.0016H27.6703V15.9984H35.2271V40.0016H42.7839V8.00471H12.5568V40.0016ZM50.3297 8.00471V47.9953H65.4432V40.0016H80.5568V8.00471H50.3297ZM65.4432 16.0094H73V31.9969H65.4432V16.0094ZM88.1135 8.00471V40.0016H103.227V15.9984H110.784V40.0016H118.341V15.9984H125.897V40.0016H133.454V8.00471H88.1135Z" fill="#CB3837"/>
+<rect y="38" width="146" height="23" rx="2" fill="url(#paint0_radial_601_9)"/>
 <defs>
-<radialGradient id="paint0_radial_6_6" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(76 31) rotate(90) scale(30 76)">
+<radialGradient id="paint0_radial_601_9" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(73 49.5) rotate(90) scale(11.5 73)">
 <stop stop-color="#CC5137"/>
 <stop offset="1" stop-color="#CC5137" stop-opacity="0"/>
 </radialGradient>
