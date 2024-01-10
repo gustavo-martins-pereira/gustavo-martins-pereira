@@ -28,17 +28,17 @@
 <details>
     <summary><b><i>Linguagens e Frameworks em forma de texto</i></b></summary>
 
-    * HTML5
-    * CSS3
-    * Bootstrap
-    * SASS
-    * JavaScript
-    * Express
-    * React
-    * NodeJS
-    * Java
-    * Ruby
-    * Ruby on Rails
+    * HTML5;
+    * CSS3;
+    * Bootstrap;
+    * SASS;
+    * JavaScript;
+    * Express;
+    * React;
+    * NodeJS;
+    * Java;
+    * Ruby;
+    * Ruby on Rails;
 </details>
 
 <div class="technologies" align="center">
@@ -62,11 +62,12 @@
 <details>
     <summary><b><i>Ferramentas em forma de texto</i></b></summary>
 
-    * Git
-    * Visual Studio Code
-    * Figma
-    * Ruby Gems
-    * Github
+    * Git;
+    * Visual Studio Code;
+    * Figma;
+    * Ruby Gems;
+    * Github;
+    * NPM;
 </details>
 
 <div class="technologies" align="center">
@@ -75,6 +76,7 @@
     <img class="technologies__icon" src="./images/icons/figma.svg" alt="Logo do VS Code">
     <img class="technologies__icon" src="./images/icons/ruby-gems.svg" alt="Logo do Ruby Gems">
     <img class="technologies__icon" src="./images/icons/github.svg" alt="Logo do Github">
+    <img class="technologies__icon" src="./images/icons/npm.svg" alt="Logo do NPM">
 </div>
 
 <h2 align="center">
