@@ -93,7 +93,7 @@ Os diretórios estão divididos em subcategorias que são:
 
 Para pesquisar um repositório com um desses tópicos específicos, digite na barra de pesquisa dos repositórios:</br>
 `SUB-CATEGORY is:topics`, onde no lugar de *SUB-CATEGORY*, você vai escrever o nome da subcategoria, como por exemplo
-`course is:topics`, assim aparecerão todos os repositórios que são relacionados aquela tag, conforme exemplo abaixo:</br>
+`personal-project is:topics`, assim aparecerão todos os repositórios que são relacionados aquela tag, conforme exemplo abaixo:</br>
 ![Na página de "repositórios" está escrito "personal-project is:topics" na caixa de pesquisa, retornando somente os repositórios que contem essa tag](./images/search-repo-github-example.png)
 
 > Para mais informações de pesquisa de repositórios, acesse essa página da [documentação do
