@@ -33,6 +33,7 @@
     * Bootstrap;
     * SASS;
     * JavaScript;
+    * TypeScript;
     * Express;
     * React;
     * NodeJS;
@@ -47,6 +48,7 @@
     <img class="technologies__icon" src="./images/icons/bootstrap.svg" alt="Logo do Bootstrap">
     <img class="technologies__icon" src="./images/icons/sass.svg" alt="Logo do SASS">
     <img class="technologies__icon" src="./images/icons/javascript.svg" alt="Logo do JavaScript">
+    <img class="technologies__icon" src="./images/icons/typescript.svg" alt="Logo do TypeScript">
     <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
     <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
     <img class="technologies__icon" src="./images/icons/nodejs.svg" alt="Logo do NodeJs">
