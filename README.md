@@ -70,6 +70,7 @@
     * Ruby Gems;
     * Github;
     * NPM;
+    * Docker;
 </details>
 
 <div class="technologies" align="center">
@@ -79,6 +80,7 @@
     <img class="technologies__icon" src="./images/icons/ruby-gems.svg" alt="Logo do Ruby Gems">
     <img class="technologies__icon" src="./images/icons/github.svg" alt="Logo do Github">
     <img class="technologies__icon" src="./images/icons/npm.svg" alt="Logo do NPM">
+    <img class="technologies__icon" src="./images/icons/docker.svg" alt="Logo do Docker">
 </div>
 
 <h2 align="center">
