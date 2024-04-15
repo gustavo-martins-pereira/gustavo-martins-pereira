@@ -26,6 +26,7 @@
     * HTML5;
     * CSS3;
     * Bootstrap;
+    * Tailwind;
     * SASS;
     * JavaScript;
     * TypeScript;
@@ -42,6 +43,7 @@
     <img class="technologies__icon" src="./images/icons/css-3.svg" alt="Logo do CSS3">
     <img class="technologies__icon" src="./images/icons/bootstrap.svg" alt="Logo do Bootstrap">
     <img class="technologies__icon" src="./images/icons/sass.svg" alt="Logo do SASS">
+    <img class="technologies__icon" src="./images/icons/tailwind.svg" alt="Logo do Tailwindcss">
     <img class="technologies__icon" src="./images/icons/javascript.svg" alt="Logo do JavaScript">
     <img class="technologies__icon" src="./images/icons/typescript.svg" alt="Logo do TypeScript">
     <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
