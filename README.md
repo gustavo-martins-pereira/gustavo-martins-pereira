@@ -21,7 +21,7 @@
 </h3>
 
 <details>
-    <summary><b><i>Linguagens e Frameworks em forma de texto</i></b></summary>
+    <summary><b><i>Linguagens, Frameworks e Bibliotecas em forma de texto</i></b></summary>
 
     * HTML5;
     * CSS3;
@@ -29,6 +29,7 @@
     * Tailwind;
     * SASS;
     * JavaScript;
+    * JWT;
     * TypeScript;
     * Express;
     * React;
@@ -45,6 +46,7 @@
     <img class="technologies__icon" src="./images/icons/sass.svg" alt="Logo do SASS">
     <img class="technologies__icon" src="./images/icons/tailwind.svg" alt="Logo do Tailwindcss">
     <img class="technologies__icon" src="./images/icons/javascript.svg" alt="Logo do JavaScript">
+    <img class="technologies__icon" src="./images/icons/jwt.svg" alt="Logo do JWT">
     <img class="technologies__icon" src="./images/icons/typescript.svg" alt="Logo do TypeScript">
     <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
     <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
