@@ -64,6 +64,7 @@
     <summary><b><i>Ferramentas em forma de texto</i></b></summary>
 
     * Git;
+    * Linux;
     * Visual Studio Code;
     * Figma;
     * Ruby Gems;
@@ -74,6 +75,7 @@
 
 <div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/git.svg" alt="Logo do Git">
+    <img class="technologies__icon" src="./images/icons/linux.svg" alt="Logo do Linux">
     <img class="technologies__icon" src="./images/icons/vscode.svg" alt="Logo do VS Code">
     <img class="technologies__icon" src="./images/icons/figma.svg" alt="Logo do VS Code">
     <img class="technologies__icon" src="./images/icons/ruby-gems.svg" alt="Logo do Ruby Gems">
