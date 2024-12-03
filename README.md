@@ -71,6 +71,7 @@
     * Github;
     * NPM;
     * Docker;
+    * Redis;
 </details>
 
 <div class="technologies" align="center">
@@ -82,6 +83,7 @@
     <img class="technologies__icon" src="./images/icons/github.svg" alt="Logo do Github">
     <img class="technologies__icon" src="./images/icons/npm.svg" alt="Logo do NPM">
     <img class="technologies__icon" src="./images/icons/docker.svg" alt="Logo do Docker">
+    <img class="technologies__icon" src="./images/icons/redis.svg" alt="Logo do Docker">
 </div>
 
 <h2 align="center">
