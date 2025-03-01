@@ -33,6 +33,7 @@
     * TypeScript;
     * Express;
     * React;
+    * NextJS;
     * NodeJS;
     * Java;
     * Ruby;
@@ -50,6 +51,7 @@
     <img class="technologies__icon" src="./images/icons/typescript.svg" alt="Logo do TypeScript">
     <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
     <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
+    <img class="technologies__icon" src="./images/icons/next.svg" alt="Logo do Next">
     <img class="technologies__icon" src="./images/icons/nodejs.svg" alt="Logo do NodeJs">
     <img class="technologies__icon" src="./images/icons/java.svg" alt="Logo do Java">
     <img class="technologies__icon" src="./images/icons/ruby.svg" alt="Logo do Ruby">
