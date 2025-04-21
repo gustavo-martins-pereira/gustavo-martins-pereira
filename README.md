@@ -29,7 +29,6 @@
     * Tailwind;
     * SASS;
     * JavaScript;
-    * JWT;
     * TypeScript;
     * Express;
     * React;
@@ -47,7 +46,6 @@
     <img class="technologies__icon" src="./images/icons/sass.svg" alt="Logo do SASS">
     <img class="technologies__icon" src="./images/icons/tailwind.svg" alt="Logo do Tailwindcss">
     <img class="technologies__icon" src="./images/icons/javascript.svg" alt="Logo do JavaScript">
-    <img class="technologies__icon" src="./images/icons/jwt.svg" alt="Logo do JWT">
     <img class="technologies__icon" src="./images/icons/typescript.svg" alt="Logo do TypeScript">
     <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
     <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
@@ -67,25 +65,27 @@
 
     * Git;
     * Linux;
-    * Visual Studio Code;
+    * JWT;
     * Figma;
     * Ruby Gems;
     * Github;
     * NPM;
     * Docker;
     * Redis;
+    * AWS;
 </details>
 
 <div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/git.svg" alt="Logo do Git">
     <img class="technologies__icon" src="./images/icons/linux.svg" alt="Logo do Linux">
-    <img class="technologies__icon" src="./images/icons/vscode.svg" alt="Logo do VS Code">
+    <img class="technologies__icon" src="./images/icons/jwt.svg" alt="Logo do JWT">
     <img class="technologies__icon" src="./images/icons/figma.svg" alt="Logo do VS Code">
     <img class="technologies__icon" src="./images/icons/ruby-gems.svg" alt="Logo do Ruby Gems">
     <img class="technologies__icon" src="./images/icons/github.svg" alt="Logo do Github">
     <img class="technologies__icon" src="./images/icons/npm.svg" alt="Logo do NPM">
     <img class="technologies__icon" src="./images/icons/docker.svg" alt="Logo do Docker">
     <img class="technologies__icon" src="./images/icons/redis.svg" alt="Logo do Docker">
+    <img class="technologies__icon" src="./images/icons/aws.svg" alt="Logo da AWS">
 </div>
 
 <h2 align="center">
