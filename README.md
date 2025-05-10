@@ -13,48 +13,86 @@
 </div>
 
 <h2 align="center">
-    <font size="6">👨‍💻 Tecnologias que Uso 👨‍💻</font>
+    <font size="6">&#x1F4BB; Tecnologias que Utilizo &#x1F4BB;</font>
 </h2>
 
 <h3 align="center">
-    <font size="5">🌐 Linguagens e Frameworks 🌐</font>
+    <font size="5">&#x1F310; Linguagens &#x1F310;</font>
 </h3>
 
 <details>
-    <summary><b><i>Linguagens, Frameworks e Bibliotecas em forma de texto</i></b></summary>
+    <summary><b><i>Linguagens em forma de texto</i></b></summary>
 
     * HTML5;
     * CSS3;
-    * Bootstrap;
-    * Tailwind;
-    * SASS;
     * JavaScript;
     * TypeScript;
-    * Express;
-    * React;
-    * NextJS;
     * NodeJS;
     * Java;
     * Ruby;
-    * Ruby on Rails;
 </details>
 
 <div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/html-5.svg" alt="Logo do HTML5">
     <img class="technologies__icon" src="./images/icons/css-3.svg" alt="Logo do CSS3">
-    <img class="technologies__icon" src="./images/icons/bootstrap.svg" alt="Logo do Bootstrap">
-    <img class="technologies__icon" src="./images/icons/sass.svg" alt="Logo do SASS">
-    <img class="technologies__icon" src="./images/icons/tailwind.svg" alt="Logo do Tailwindcss">
     <img class="technologies__icon" src="./images/icons/javascript.svg" alt="Logo do JavaScript">
     <img class="technologies__icon" src="./images/icons/typescript.svg" alt="Logo do TypeScript">
-    <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
-    <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
-    <img class="technologies__icon" src="./images/icons/next.svg" alt="Logo do Next">
     <img class="technologies__icon" src="./images/icons/nodejs.svg" alt="Logo do NodeJs">
     <img class="technologies__icon" src="./images/icons/java.svg" alt="Logo do Java">
     <img class="technologies__icon" src="./images/icons/ruby.svg" alt="Logo do Ruby">
-    <img class="technologies__icon" src="./images/icons/rails.svg" alt="Logo do Ruby on Rails">
 </div>
+
+<!-------------------------------------------------------->
+
+<h3 align="center">
+    <font size="5">&#x1F4DA; Frameworks e Libs &#x1F4DA;</font>
+</h3>
+
+<details>
+    <summary><b><i>Frameworks/libs em forma de texto</i></b></summary>
+
+    * Bootstrap;
+    * Tailwind;
+    * SASS;
+    * Express;
+    * React;
+    * NextJS;
+    * Ruby on Rails;
+    * JWT;
+</details>
+
+<div class="technologies" align="center">
+    <img class="technologies__icon" src="./images/icons/bootstrap.svg" alt="Logo do Bootstrap">
+    <img class="technologies__icon" src="./images/icons/sass.svg" alt="Logo do SASS">
+    <img class="technologies__icon" src="./images/icons/tailwind.svg" alt="Logo do Tailwindcss">
+    <img class="technologies__icon" src="./images/icons/express.svg" alt="Logo do Express">
+    <img class="technologies__icon" src="./images/icons/react.svg" alt="Logo do React">
+    <img class="technologies__icon" src="./images/icons/next.svg" alt="Logo do Next">
+    <img class="technologies__icon" src="./images/icons/rails.svg" alt="Logo do Ruby on Rails">
+    <img class="technologies__icon" src="./images/icons/jwt.svg" alt="Logo do JWT">
+</div>
+
+<!-------------------------------------------------------->
+
+<h3 align="center">
+    <font size="5">&#x1F3B2; Banco de Dados &#x1F3B2;</font>
+</h3>
+
+<details>
+    <summary><b><i>Banco de dados em forma de texto</i></b></summary>
+
+    * Postgres;
+    * MongoDB;
+    * Redis;
+</details>
+
+<div class="technologies" align="center">
+    <img class="technologies__icon" src="./images/icons/postgres.svg" alt="Logo do Postgres">
+    <img class="technologies__icon" src="./images/icons/mongodb.svg" alt="Logo do MongoDB">
+    <img class="technologies__icon" src="./images/icons/redis.svg" alt="Logo do Docker">
+</div>
+
+<!-------------------------------------------------------->
 
 <h3 align="center">
     <font size="5">🛠️ Ferramentas 🛠️</font>
@@ -65,28 +103,23 @@
 
     * Git;
     * Linux;
-    * JWT;
     * Figma;
     * Ruby Gems;
     * Github;
-    * NPM;
     * Docker;
-    * Redis;
     * AWS;
 </details>
 
 <div class="technologies" align="center">
     <img class="technologies__icon" src="./images/icons/git.svg" alt="Logo do Git">
     <img class="technologies__icon" src="./images/icons/linux.svg" alt="Logo do Linux">
-    <img class="technologies__icon" src="./images/icons/jwt.svg" alt="Logo do JWT">
     <img class="technologies__icon" src="./images/icons/figma.svg" alt="Logo do VS Code">
-    <img class="technologies__icon" src="./images/icons/ruby-gems.svg" alt="Logo do Ruby Gems">
     <img class="technologies__icon" src="./images/icons/github.svg" alt="Logo do Github">
-    <img class="technologies__icon" src="./images/icons/npm.svg" alt="Logo do NPM">
     <img class="technologies__icon" src="./images/icons/docker.svg" alt="Logo do Docker">
-    <img class="technologies__icon" src="./images/icons/redis.svg" alt="Logo do Docker">
     <img class="technologies__icon" src="./images/icons/aws.svg" alt="Logo da AWS">
 </div>
+
+<!-------------------------------------------------------->
 
 <h2 align="center">
     <font size="6">📞 Formas de Contato 📞</font>
